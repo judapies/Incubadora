@@ -1,0 +1,9 @@
+>>> Warning 202 "Horno.c" Line 34(77,85): Variable never used:   saturado
+>>> Warning 202 "Horno.c" Line 34(88,95): Variable never used:   Sentido
+>>> Warning 202 "Horno.c" Line 36(20,31): Variable never used:   flag_clear2
+>>> Warning 202 "Horno.c" Line 36(120,132): Variable never used:   flag_control
+>>> Warning 202 "Horno.c" Line 41(20,29): Variable never used:   Tpulsomin
+>>> Warning 202 "Horno.c" Line 46(107,116): Variable never used:   Ganancia2
+>>> Warning 202 "Horno.c" Line 47(51,60): Variable never used:   Tpulsomax
+      Memory usage:   ROM=92%      RAM=78% - 80%
+      0 Errors,  7 Warnings.

@@ -1,0 +1,47 @@
+[PROJECT]
+Target=Horno.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.059
+Compiler=PCH
+[Target Data]
+FileList=Horno.c
+[Horno.c]
+Type=4
+[mru-list]
+1=Horno.c
+
+[defines]
+buildcount=8
+
+[Opened Files]
+1=Horno.c
+t1=1
+2=HDM64GS12.c
+t2=100
+Count=2
+
+[ProjectLog]
+Days=2
+D1=16-04-2018
+D1_L=10
+D1_L1=[49655]Stopped Editing.
+D1_L2=[50145]Started Editing.
+D1_L3=[51316]Stopped Editing.
+D1_L4=[51690]Started Editing.
+D1_L5=[52257]Stopped Editing.
+D1_L6=[52632]Started Editing.
+D1_L7=[52995]Stopped Editing.
+D1_L8=[53104]Started Editing.
+D1_L9=[53404]Stopped Editing.
+TotalEdit=28
+TotalDebug=0
+D1_E=28
+D1_D=0
+D1_L10=[57636]Project Closed.
+D2=17-04-2018
+D2_L=2
+D2_L1=[44463]Project Opened.
+D2_L2=[44479]Project Closed.
+[Units]
+Count=1
+1=Horno (main)

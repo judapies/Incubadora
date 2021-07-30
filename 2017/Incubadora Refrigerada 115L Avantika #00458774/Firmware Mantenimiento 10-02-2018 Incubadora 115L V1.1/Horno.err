@@ -1,0 +1,7 @@
+>>> Warning 202 "Horno.c" Line 57(14,16): Variable never used:   R1
+>>> Warning 202 "Horno.c" Line 57(25,27): Variable never used:   Pt
+>>> Warning 202 "Horno.c" Line 59(7,8): Variable never used:   a
+>>> Warning 202 "Horno.c" Line 59(16,17): Variable never used:   b
+>>> Warning 202 "Horno.c" Line 59(25,26): Variable never used:   c
+      Memory usage:   ROM=97%      RAM=79% - 82%
+      0 Errors,  5 Warnings.

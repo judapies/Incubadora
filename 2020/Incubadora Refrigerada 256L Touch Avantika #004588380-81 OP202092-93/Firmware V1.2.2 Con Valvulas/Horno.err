@@ -1,0 +1,5 @@
+>>> Warning 202 "Horno.c" Line 61(141,149): Variable never used:   EstadoR5
+>>> Warning 202 "Horno.c" Line 62(62,70): Variable never used:   EstadoR6
+>>> Warning 202 "Horno.c" Line 63(24,36): Variable never used:   flagControlH
+      Memory usage:   ROM=53%      RAM=54% - 55%
+      0 Errors,  3 Warnings.

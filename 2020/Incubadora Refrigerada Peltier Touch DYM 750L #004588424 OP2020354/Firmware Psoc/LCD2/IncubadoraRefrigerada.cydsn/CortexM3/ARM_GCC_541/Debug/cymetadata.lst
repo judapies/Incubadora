@@ -1,0 +1,3175 @@
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 2532
+  28              	cy_meta_configecc:
+  29 0000 01       		.byte	1
+  30 0001 45       		.byte	69
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 02       		.byte	2
+  34 0005 4F       		.byte	79
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 03       		.byte	3
+  38 0009 52       		.byte	82
+  39 000a 00       		.byte	0
+  40 000b 40       		.byte	64
+  41 000c 01       		.byte	1
+  42 000d 5B       		.byte	91
+  43 000e 00       		.byte	0
+  44 000f 40       		.byte	64
+  45 0010 04       		.byte	4
+  46 0011 65       		.byte	101
+  47 0012 00       		.byte	0
+  48 0013 40       		.byte	64
+  49 0014 04       		.byte	4
+  50 0015 00       		.byte	0
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 03       		.byte	3
+  54 0019 01       		.byte	1
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 07       		.byte	7
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 2
+
+
+  58 001d 03       		.byte	3
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 05       		.byte	5
+  62 0021 05       		.byte	5
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 10       		.byte	16
+  66 0025 06       		.byte	6
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 2D       		.byte	45
+  70 0029 07       		.byte	7
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 37       		.byte	55
+  74 002d 08       		.byte	8
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 38       		.byte	56
+  78 0031 09       		.byte	9
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 15       		.byte	21
+  82 0035 0A       		.byte	10
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 34       		.byte	52
+  86 0039 0B       		.byte	11
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 20       		.byte	32
+  90 003d 0C       		.byte	12
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 3E       		.byte	62
+  94 0041 0D       		.byte	13
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 1A       		.byte	26
+  98 0045 0E       		.byte	14
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 22       		.byte	34
+ 102 0049 0F       		.byte	15
+ 103 004a 01       		.byte	1
+ 104 004b 40       		.byte	64
+ 105 004c 3A       		.byte	58
+ 106 004d 14       		.byte	20
+ 107 004e 01       		.byte	1
+ 108 004f 40       		.byte	64
+ 109 0050 4E       		.byte	78
+ 110 0051 15       		.byte	21
+ 111 0052 01       		.byte	1
+ 112 0053 40       		.byte	64
+ 113 0054 3C       		.byte	60
+ 114 0055 16       		.byte	22
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 3
+
+
+ 115 0056 01       		.byte	1
+ 116 0057 40       		.byte	64
+ 117 0058 43       		.byte	67
+ 118 0059 17       		.byte	23
+ 119 005a 01       		.byte	1
+ 120 005b 40       		.byte	64
+ 121 005c 4A       		.byte	74
+ 122 005d 18       		.byte	24
+ 123 005e 01       		.byte	1
+ 124 005f 40       		.byte	64
+ 125 0060 40       		.byte	64
+ 126 0061 19       		.byte	25
+ 127 0062 01       		.byte	1
+ 128 0063 40       		.byte	64
+ 129 0064 49       		.byte	73
+ 130 0065 1A       		.byte	26
+ 131 0066 01       		.byte	1
+ 132 0067 40       		.byte	64
+ 133 0068 4E       		.byte	78
+ 134 0069 1B       		.byte	27
+ 135 006a 01       		.byte	1
+ 136 006b 40       		.byte	64
+ 137 006c 10       		.byte	16
+ 138 006d 40       		.byte	64
+ 139 006e 01       		.byte	1
+ 140 006f 40       		.byte	64
+ 141 0070 0C       		.byte	12
+ 142 0071 41       		.byte	65
+ 143 0072 01       		.byte	1
+ 144 0073 40       		.byte	64
+ 145 0074 0E       		.byte	14
+ 146 0075 42       		.byte	66
+ 147 0076 01       		.byte	1
+ 148 0077 40       		.byte	64
+ 149 0078 0A       		.byte	10
+ 150 0079 43       		.byte	67
+ 151 007a 01       		.byte	1
+ 152 007b 40       		.byte	64
+ 153 007c 0B       		.byte	11
+ 154 007d 44       		.byte	68
+ 155 007e 01       		.byte	1
+ 156 007f 40       		.byte	64
+ 157 0080 03       		.byte	3
+ 158 0081 45       		.byte	69
+ 159 0082 01       		.byte	1
+ 160 0083 40       		.byte	64
+ 161 0084 09       		.byte	9
+ 162 0085 46       		.byte	70
+ 163 0086 01       		.byte	1
+ 164 0087 40       		.byte	64
+ 165 0088 0D       		.byte	13
+ 166 0089 47       		.byte	71
+ 167 008a 01       		.byte	1
+ 168 008b 40       		.byte	64
+ 169 008c 09       		.byte	9
+ 170 008d 48       		.byte	72
+ 171 008e 01       		.byte	1
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 4
+
+
+ 172 008f 40       		.byte	64
+ 173 0090 07       		.byte	7
+ 174 0091 49       		.byte	73
+ 175 0092 01       		.byte	1
+ 176 0093 40       		.byte	64
+ 177 0094 0B       		.byte	11
+ 178 0095 4C       		.byte	76
+ 179 0096 01       		.byte	1
+ 180 0097 40       		.byte	64
+ 181 0098 11       		.byte	17
+ 182 0099 4D       		.byte	77
+ 183 009a 01       		.byte	1
+ 184 009b 40       		.byte	64
+ 185 009c 0B       		.byte	11
+ 186 009d 50       		.byte	80
+ 187 009e 01       		.byte	1
+ 188 009f 40       		.byte	64
+ 189 00a0 04       		.byte	4
+ 190 00a1 51       		.byte	81
+ 191 00a2 01       		.byte	1
+ 192 00a3 40       		.byte	64
+ 193 00a4 7E       		.byte	126
+ 194 00a5 02       		.byte	2
+ 195 00a6 01       		.byte	1
+ 196 00a7 80       		.byte	-128
+ 197 00a8 0A       		.byte	10
+ 198 00a9 4B       		.byte	75
+ 199 00aa 00       		.byte	0
+ 200 00ab 04       		.byte	4
+ 201 00ac 01       		.byte	1
+ 202 00ad 04       		.byte	4
+ 203 00ae 7C       		.byte	124
+ 204 00af 40       		.byte	64
+ 205 00b0 27       		.byte	39
+ 206 00b1 84       		.byte	-124
+ 207 00b2 87       		.byte	-121
+ 208 00b3 0F       		.byte	15
+ 209 00b4 88       		.byte	-120
+ 210 00b5 38       		.byte	56
+ 211 00b6 8A       		.byte	-118
+ 212 00b7 0D       		.byte	13
+ 213 00b8 8B       		.byte	-117
+ 214 00b9 72       		.byte	114
+ 215 00ba B9       		.byte	-71
+ 216 00bb 80       		.byte	-128
+ 217 00bc BF       		.byte	-65
+ 218 00bd 40       		.byte	64
+ 219 00be D9       		.byte	-39
+ 220 00bf 04       		.byte	4
+ 221 00c0 DF       		.byte	-33
+ 222 00c1 01       		.byte	1
+ 223 00c2 24       		.byte	36
+ 224 00c3 02       		.byte	2
+ 225 00c4 8C       		.byte	-116
+ 226 00c5 01       		.byte	1
+ 227 00c6 E2       		.byte	-30
+ 228 00c7 68       		.byte	104
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 5
+
+
+ 229 00c8 81       		.byte	-127
+ 230 00c9 02       		.byte	2
+ 231 00ca 83       		.byte	-125
+ 232 00cb 08       		.byte	8
+ 233 00cc 84       		.byte	-124
+ 234 00cd 40       		.byte	64
+ 235 00ce 9A       		.byte	-102
+ 236 00cf 40       		.byte	64
+ 237 00d0 B2       		.byte	-78
+ 238 00d1 40       		.byte	64
+ 239 00d2 E2       		.byte	-30
+ 240 00d3 07       		.byte	7
+ 241 00d4 EA       		.byte	-22
+ 242 00d5 04       		.byte	4
+ 243 00d6 8D       		.byte	-115
+ 244 00d7 80       		.byte	-128
+ 245 00d8 9A       		.byte	-102
+ 246 00d9 40       		.byte	64
+ 247 00da 9B       		.byte	-101
+ 248 00db 08       		.byte	8
+ 249 00dc A0       		.byte	-96
+ 250 00dd 40       		.byte	64
+ 251 00de A1       		.byte	-95
+ 252 00df 02       		.byte	2
+ 253 00e0 02       		.byte	2
+ 254 00e1 01       		.byte	1
+ 255 00e2 0C       		.byte	12
+ 256 00e3 01       		.byte	1
+ 257 00e4 10       		.byte	16
+ 258 00e5 01       		.byte	1
+ 259 00e6 14       		.byte	20
+ 260 00e7 01       		.byte	1
+ 261 00e8 20       		.byte	32
+ 262 00e9 01       		.byte	1
+ 263 00ea 24       		.byte	36
+ 264 00eb 01       		.byte	1
+ 265 00ec 2C       		.byte	44
+ 266 00ed 01       		.byte	1
+ 267 00ee 30       		.byte	48
+ 268 00ef 01       		.byte	1
+ 269 00f0 58       		.byte	88
+ 270 00f1 04       		.byte	4
+ 271 00f2 59       		.byte	89
+ 272 00f3 04       		.byte	4
+ 273 00f4 5C       		.byte	92
+ 274 00f5 11       		.byte	17
+ 275 00f6 5F       		.byte	95
+ 276 00f7 01       		.byte	1
+ 277 00f8 D8       		.byte	-40
+ 278 00f9 04       		.byte	4
+ 279 00fa D9       		.byte	-39
+ 280 00fb 04       		.byte	4
+ 281 00fc DC       		.byte	-36
+ 282 00fd 11       		.byte	17
+ 283 00fe DF       		.byte	-33
+ 284 00ff 01       		.byte	1
+ 285 0100 00       		.byte	0
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 6
+
+
+ 286 0101 80       		.byte	-128
+ 287 0102 01       		.byte	1
+ 288 0103 40       		.byte	64
+ 289 0104 02       		.byte	2
+ 290 0105 40       		.byte	64
+ 291 0106 03       		.byte	3
+ 292 0107 01       		.byte	1
+ 293 0108 05       		.byte	5
+ 294 0109 82       		.byte	-126
+ 295 010a 06       		.byte	6
+ 296 010b 40       		.byte	64
+ 297 010c 08       		.byte	8
+ 298 010d 40       		.byte	64
+ 299 010e 09       		.byte	9
+ 300 010f 02       		.byte	2
+ 301 0110 0A       		.byte	10
+ 302 0111 90       		.byte	-112
+ 303 0112 0D       		.byte	13
+ 304 0113 02       		.byte	2
+ 305 0114 0E       		.byte	14
+ 306 0115 50       		.byte	80
+ 307 0116 12       		.byte	18
+ 308 0117 01       		.byte	1
+ 309 0118 13       		.byte	19
+ 310 0119 08       		.byte	8
+ 311 011a 16       		.byte	22
+ 312 011b 01       		.byte	1
+ 313 011c 17       		.byte	23
+ 314 011d 09       		.byte	9
+ 315 011e 1F       		.byte	31
+ 316 011f 01       		.byte	1
+ 317 0120 29       		.byte	41
+ 318 0121 80       		.byte	-128
+ 319 0122 2E       		.byte	46
+ 320 0123 50       		.byte	80
+ 321 0124 30       		.byte	48
+ 322 0125 04       		.byte	4
+ 323 0126 32       		.byte	50
+ 324 0127 40       		.byte	64
+ 325 0128 33       		.byte	51
+ 326 0129 01       		.byte	1
+ 327 012a 34       		.byte	52
+ 328 012b 40       		.byte	64
+ 329 012c 35       		.byte	53
+ 330 012d 82       		.byte	-126
+ 331 012e 37       		.byte	55
+ 332 012f 08       		.byte	8
+ 333 0130 3A       		.byte	58
+ 334 0131 51       		.byte	81
+ 335 0132 3B       		.byte	59
+ 336 0133 41       		.byte	65
+ 337 0134 3C       		.byte	60
+ 338 0135 80       		.byte	-128
+ 339 0136 3F       		.byte	63
+ 340 0137 01       		.byte	1
+ 341 0138 84       		.byte	-124
+ 342 0139 40       		.byte	64
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 7
+
+
+ 343 013a 87       		.byte	-121
+ 344 013b 20       		.byte	32
+ 345 013c 8F       		.byte	-113
+ 346 013d 01       		.byte	1
+ 347 013e 99       		.byte	-103
+ 348 013f 80       		.byte	-128
+ 349 0140 9A       		.byte	-102
+ 350 0141 40       		.byte	64
+ 351 0142 9B       		.byte	-101
+ 352 0143 08       		.byte	8
+ 353 0144 A0       		.byte	-96
+ 354 0145 40       		.byte	64
+ 355 0146 A1       		.byte	-95
+ 356 0147 02       		.byte	2
+ 357 0148 B2       		.byte	-78
+ 358 0149 40       		.byte	64
+ 359 014a C0       		.byte	-64
+ 360 014b 99       		.byte	-103
+ 361 014c C2       		.byte	-62
+ 362 014d 3D       		.byte	61
+ 363 014e C4       		.byte	-60
+ 364 014f B5       		.byte	-75
+ 365 0150 CA       		.byte	-54
+ 366 0151 38       		.byte	56
+ 367 0152 CC       		.byte	-52
+ 368 0153 DB       		.byte	-37
+ 369 0154 CE       		.byte	-50
+ 370 0155 9D       		.byte	-99
+ 371 0156 E2       		.byte	-30
+ 372 0157 41       		.byte	65
+ 373 0158 EE       		.byte	-18
+ 374 0159 04       		.byte	4
+ 375 015a 03       		.byte	3
+ 376 015b 08       		.byte	8
+ 377 015c 0D       		.byte	13
+ 378 015d 04       		.byte	4
+ 379 015e 13       		.byte	19
+ 380 015f 01       		.byte	1
+ 381 0160 17       		.byte	23
+ 382 0161 02       		.byte	2
+ 383 0162 1B       		.byte	27
+ 384 0163 04       		.byte	4
+ 385 0164 1E       		.byte	30
+ 386 0165 01       		.byte	1
+ 387 0166 22       		.byte	34
+ 388 0167 01       		.byte	1
+ 389 0168 2B       		.byte	43
+ 390 0169 02       		.byte	2
+ 391 016a 30       		.byte	48
+ 392 016b 01       		.byte	1
+ 393 016c 33       		.byte	51
+ 394 016d 03       		.byte	3
+ 395 016e 35       		.byte	53
+ 396 016f 0C       		.byte	12
+ 397 0170 3E       		.byte	62
+ 398 0171 01       		.byte	1
+ 399 0172 3F       		.byte	63
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 8
+
+
+ 400 0173 04       		.byte	4
+ 401 0174 40       		.byte	64
+ 402 0175 36       		.byte	54
+ 403 0176 41       		.byte	65
+ 404 0177 04       		.byte	4
+ 405 0178 42       		.byte	66
+ 406 0179 05       		.byte	5
+ 407 017a 44       		.byte	68
+ 408 017b 02       		.byte	2
+ 409 017c 46       		.byte	70
+ 410 017d 0C       		.byte	12
+ 411 017e 47       		.byte	71
+ 412 017f E0       		.byte	-32
+ 413 0180 48       		.byte	72
+ 414 0181 24       		.byte	36
+ 415 0182 49       		.byte	73
+ 416 0183 FF       		.byte	-1
+ 417 0184 4A       		.byte	74
+ 418 0185 FF       		.byte	-1
+ 419 0186 4B       		.byte	75
+ 420 0187 FF       		.byte	-1
+ 421 0188 4C       		.byte	76
+ 422 0189 62       		.byte	98
+ 423 018a 4D       		.byte	77
+ 424 018b A0       		.byte	-96
+ 425 018c 4E       		.byte	78
+ 426 018d F0       		.byte	-16
+ 427 018e 4F       		.byte	79
+ 428 018f 41       		.byte	65
+ 429 0190 50       		.byte	80
+ 430 0191 0C       		.byte	12
+ 431 0192 56       		.byte	86
+ 432 0193 08       		.byte	8
+ 433 0194 58       		.byte	88
+ 434 0195 04       		.byte	4
+ 435 0196 59       		.byte	89
+ 436 0197 04       		.byte	4
+ 437 0198 5A       		.byte	90
+ 438 0199 04       		.byte	4
+ 439 019a 5B       		.byte	91
+ 440 019b 04       		.byte	4
+ 441 019c 5C       		.byte	92
+ 442 019d 91       		.byte	-111
+ 443 019e 5D       		.byte	93
+ 444 019f 92       		.byte	-110
+ 445 01a0 5F       		.byte	95
+ 446 01a1 01       		.byte	1
+ 447 01a2 66       		.byte	102
+ 448 01a3 40       		.byte	64
+ 449 01a4 67       		.byte	103
+ 450 01a5 02       		.byte	2
+ 451 01a6 69       		.byte	105
+ 452 01a7 10       		.byte	16
+ 453 01a8 6A       		.byte	106
+ 454 01a9 30       		.byte	48
+ 455 01aa 6B       		.byte	107
+ 456 01ab 10       		.byte	16
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 9
+
+
+ 457 01ac 6D       		.byte	109
+ 458 01ad 10       		.byte	16
+ 459 01ae 6E       		.byte	110
+ 460 01af 10       		.byte	16
+ 461 01b0 6F       		.byte	111
+ 462 01b1 12       		.byte	18
+ 463 01b2 98       		.byte	-104
+ 464 01b3 01       		.byte	1
+ 465 01b4 A6       		.byte	-90
+ 466 01b5 03       		.byte	3
+ 467 01b6 B0       		.byte	-80
+ 468 01b7 01       		.byte	1
+ 469 01b8 B4       		.byte	-76
+ 470 01b9 02       		.byte	2
+ 471 01ba D4       		.byte	-44
+ 472 01bb 01       		.byte	1
+ 473 01bc D8       		.byte	-40
+ 474 01bd 0C       		.byte	12
+ 475 01be D9       		.byte	-39
+ 476 01bf 04       		.byte	4
+ 477 01c0 DB       		.byte	-37
+ 478 01c1 0C       		.byte	12
+ 479 01c2 DC       		.byte	-36
+ 480 01c3 11       		.byte	17
+ 481 01c4 DD       		.byte	-35
+ 482 01c5 10       		.byte	16
+ 483 01c6 DF       		.byte	-33
+ 484 01c7 01       		.byte	1
+ 485 01c8 04       		.byte	4
+ 486 01c9 04       		.byte	4
+ 487 01ca 06       		.byte	6
+ 488 01cb 8A       		.byte	-118
+ 489 01cc 07       		.byte	7
+ 490 01cd 01       		.byte	1
+ 491 01ce 0A       		.byte	10
+ 492 01cf 08       		.byte	8
+ 493 01d0 0C       		.byte	12
+ 494 01d1 04       		.byte	4
+ 495 01d2 0E       		.byte	14
+ 496 01d3 01       		.byte	1
+ 497 01d4 12       		.byte	18
+ 498 01d5 20       		.byte	32
+ 499 01d6 15       		.byte	21
+ 500 01d7 10       		.byte	16
+ 501 01d8 16       		.byte	22
+ 502 01d9 50       		.byte	80
+ 503 01da 17       		.byte	23
+ 504 01db 10       		.byte	16
+ 505 01dc 1A       		.byte	26
+ 506 01dd 48       		.byte	72
+ 507 01de 1F       		.byte	31
+ 508 01df 01       		.byte	1
+ 509 01e0 26       		.byte	38
+ 510 01e1 20       		.byte	32
+ 511 01e2 27       		.byte	39
+ 512 01e3 20       		.byte	32
+ 513 01e4 2A       		.byte	42
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 10
+
+
+ 514 01e5 98       		.byte	-104
+ 515 01e6 2C       		.byte	44
+ 516 01e7 08       		.byte	8
+ 517 01e8 30       		.byte	48
+ 518 01e9 04       		.byte	4
+ 519 01ea 36       		.byte	54
+ 520 01eb 26       		.byte	38
+ 521 01ec 38       		.byte	56
+ 522 01ed 25       		.byte	37
+ 523 01ee 39       		.byte	57
+ 524 01ef 10       		.byte	16
+ 525 01f0 3A       		.byte	58
+ 526 01f1 02       		.byte	2
+ 527 01f2 3E       		.byte	62
+ 528 01f3 40       		.byte	64
+ 529 01f4 3F       		.byte	63
+ 530 01f5 01       		.byte	1
+ 531 01f6 44       		.byte	68
+ 532 01f7 40       		.byte	64
+ 533 01f8 47       		.byte	71
+ 534 01f9 24       		.byte	36
+ 535 01fa 4C       		.byte	76
+ 536 01fb 04       		.byte	4
+ 537 01fc 4E       		.byte	78
+ 538 01fd 01       		.byte	1
+ 539 01fe 56       		.byte	86
+ 540 01ff 40       		.byte	64
+ 541 0200 57       		.byte	87
+ 542 0201 01       		.byte	1
+ 543 0202 5A       		.byte	90
+ 544 0203 43       		.byte	67
+ 545 0204 5C       		.byte	92
+ 546 0205 80       		.byte	-128
+ 547 0206 67       		.byte	103
+ 548 0207 01       		.byte	1
+ 549 0208 7B       		.byte	123
+ 550 0209 02       		.byte	2
+ 551 020a 90       		.byte	-112
+ 552 020b 25       		.byte	37
+ 553 020c 96       		.byte	-106
+ 554 020d 40       		.byte	64
+ 555 020e 98       		.byte	-104
+ 556 020f 04       		.byte	4
+ 557 0210 9E       		.byte	-98
+ 558 0211 80       		.byte	-128
+ 559 0212 A3       		.byte	-93
+ 560 0213 02       		.byte	2
+ 561 0214 B0       		.byte	-80
+ 562 0215 10       		.byte	16
+ 563 0216 B1       		.byte	-79
+ 564 0217 80       		.byte	-128
+ 565 0218 B2       		.byte	-78
+ 566 0219 20       		.byte	32
+ 567 021a B5       		.byte	-75
+ 568 021b 08       		.byte	8
+ 569 021c C0       		.byte	-64
+ 570 021d F0       		.byte	-16
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 11
+
+
+ 571 021e C2       		.byte	-62
+ 572 021f A2       		.byte	-94
+ 573 0220 C4       		.byte	-60
+ 574 0221 74       		.byte	116
+ 575 0222 CA       		.byte	-54
+ 576 0223 2E       		.byte	46
+ 577 0224 CC       		.byte	-52
+ 578 0225 E2       		.byte	-30
+ 579 0226 CE       		.byte	-50
+ 580 0227 97       		.byte	-105
+ 581 0228 D0       		.byte	-48
+ 582 0229 E0       		.byte	-32
+ 583 022a D2       		.byte	-46
+ 584 022b 30       		.byte	48
+ 585 022c D6       		.byte	-42
+ 586 022d 18       		.byte	24
+ 587 022e D8       		.byte	-40
+ 588 022f 10       		.byte	16
+ 589 0230 DE       		.byte	-34
+ 590 0231 08       		.byte	8
+ 591 0232 E2       		.byte	-30
+ 592 0233 01       		.byte	1
+ 593 0234 EC       		.byte	-20
+ 594 0235 80       		.byte	-128
+ 595 0236 EE       		.byte	-18
+ 596 0237 04       		.byte	4
+ 597 0238 58       		.byte	88
+ 598 0239 04       		.byte	4
+ 599 023a 59       		.byte	89
+ 600 023b 04       		.byte	4
+ 601 023c 5C       		.byte	92
+ 602 023d 11       		.byte	17
+ 603 023e 5F       		.byte	95
+ 604 023f 01       		.byte	1
+ 605 0240 84       		.byte	-124
+ 606 0241 01       		.byte	1
+ 607 0242 87       		.byte	-121
+ 608 0243 01       		.byte	1
+ 609 0244 8F       		.byte	-113
+ 610 0245 02       		.byte	2
+ 611 0246 A4       		.byte	-92
+ 612 0247 01       		.byte	1
+ 613 0248 B2       		.byte	-78
+ 614 0249 01       		.byte	1
+ 615 024a B3       		.byte	-77
+ 616 024b 01       		.byte	1
+ 617 024c B5       		.byte	-75
+ 618 024d 02       		.byte	2
+ 619 024e B8       		.byte	-72
+ 620 024f 08       		.byte	8
+ 621 0250 BE       		.byte	-66
+ 622 0251 04       		.byte	4
+ 623 0252 D2       		.byte	-46
+ 624 0253 03       		.byte	3
+ 625 0254 D3       		.byte	-45
+ 626 0255 02       		.byte	2
+ 627 0256 D8       		.byte	-40
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 12
+
+
+ 628 0257 04       		.byte	4
+ 629 0258 D9       		.byte	-39
+ 630 0259 04       		.byte	4
+ 631 025a DB       		.byte	-37
+ 632 025b 04       		.byte	4
+ 633 025c DC       		.byte	-36
+ 634 025d 11       		.byte	17
+ 635 025e DD       		.byte	-35
+ 636 025f 10       		.byte	16
+ 637 0260 DF       		.byte	-33
+ 638 0261 01       		.byte	1
+ 639 0262 00       		.byte	0
+ 640 0263 21       		.byte	33
+ 641 0264 02       		.byte	2
+ 642 0265 02       		.byte	2
+ 643 0266 04       		.byte	4
+ 644 0267 01       		.byte	1
+ 645 0268 05       		.byte	5
+ 646 0269 88       		.byte	-120
+ 647 026a 08       		.byte	8
+ 648 026b 04       		.byte	4
+ 649 026c 09       		.byte	9
+ 650 026d 20       		.byte	32
+ 651 026e 0B       		.byte	11
+ 652 026f 40       		.byte	64
+ 653 0270 0C       		.byte	12
+ 654 0271 05       		.byte	5
+ 655 0272 0D       		.byte	13
+ 656 0273 20       		.byte	32
+ 657 0274 0F       		.byte	15
+ 658 0275 40       		.byte	64
+ 659 0276 13       		.byte	19
+ 660 0277 20       		.byte	32
+ 661 0278 16       		.byte	22
+ 662 0279 80       		.byte	-128
+ 663 027a 17       		.byte	23
+ 664 027b 24       		.byte	36
+ 665 027c 1F       		.byte	31
+ 666 027d 04       		.byte	4
+ 667 027e 24       		.byte	36
+ 668 027f 24       		.byte	36
+ 669 0280 25       		.byte	37
+ 670 0281 20       		.byte	32
+ 671 0282 27       		.byte	39
+ 672 0283 28       		.byte	40
+ 673 0284 28       		.byte	40
+ 674 0285 01       		.byte	1
+ 675 0286 2A       		.byte	42
+ 676 0287 20       		.byte	32
+ 677 0288 2C       		.byte	44
+ 678 0289 04       		.byte	4
+ 679 028a 2E       		.byte	46
+ 680 028b 80       		.byte	-128
+ 681 028c 30       		.byte	48
+ 682 028d 04       		.byte	4
+ 683 028e 32       		.byte	50
+ 684 028f 02       		.byte	2
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 13
+
+
+ 685 0290 34       		.byte	52
+ 686 0291 01       		.byte	1
+ 687 0292 35       		.byte	53
+ 688 0293 80       		.byte	-128
+ 689 0294 37       		.byte	55
+ 690 0295 28       		.byte	40
+ 691 0296 38       		.byte	56
+ 692 0297 25       		.byte	37
+ 693 0298 3C       		.byte	60
+ 694 0299 01       		.byte	1
+ 695 029a 3D       		.byte	61
+ 696 029b 40       		.byte	64
+ 697 029c 3E       		.byte	62
+ 698 029d 08       		.byte	8
+ 699 029e 6E       		.byte	110
+ 700 029f 20       		.byte	32
+ 701 02a0 6F       		.byte	111
+ 702 02a1 06       		.byte	6
+ 703 02a2 8C       		.byte	-116
+ 704 02a3 04       		.byte	4
+ 705 02a4 90       		.byte	-112
+ 706 02a5 01       		.byte	1
+ 707 02a6 91       		.byte	-111
+ 708 02a7 40       		.byte	64
+ 709 02a8 93       		.byte	-109
+ 710 02a9 40       		.byte	64
+ 711 02aa 94       		.byte	-108
+ 712 02ab 04       		.byte	4
+ 713 02ac 96       		.byte	-106
+ 714 02ad 40       		.byte	64
+ 715 02ae 97       		.byte	-105
+ 716 02af 08       		.byte	8
+ 717 02b0 98       		.byte	-104
+ 718 02b1 04       		.byte	4
+ 719 02b2 9A       		.byte	-102
+ 720 02b3 08       		.byte	8
+ 721 02b4 9F       		.byte	-97
+ 722 02b5 20       		.byte	32
+ 723 02b6 A2       		.byte	-94
+ 724 02b7 02       		.byte	2
+ 725 02b8 A6       		.byte	-90
+ 726 02b9 10       		.byte	16
+ 727 02ba A7       		.byte	-89
+ 728 02bb 02       		.byte	2
+ 729 02bc C0       		.byte	-64
+ 730 02bd BB       		.byte	-69
+ 731 02be C2       		.byte	-62
+ 732 02bf 7E       		.byte	126
+ 733 02c0 C4       		.byte	-60
+ 734 02c1 72       		.byte	114
+ 735 02c2 CA       		.byte	-54
+ 736 02c3 3C       		.byte	60
+ 737 02c4 CC       		.byte	-52
+ 738 02c5 F3       		.byte	-13
+ 739 02c6 CE       		.byte	-50
+ 740 02c7 D7       		.byte	-41
+ 741 02c8 E6       		.byte	-26
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 14
+
+
+ 742 02c9 40       		.byte	64
+ 743 02ca 01       		.byte	1
+ 744 02cb 04       		.byte	4
+ 745 02cc 05       		.byte	5
+ 746 02cd 40       		.byte	64
+ 747 02ce 07       		.byte	7
+ 748 02cf 80       		.byte	-128
+ 749 02d0 09       		.byte	9
+ 750 02d1 20       		.byte	32
+ 751 02d2 0B       		.byte	11
+ 752 02d3 10       		.byte	16
+ 753 02d4 0F       		.byte	15
+ 754 02d5 02       		.byte	2
+ 755 02d6 13       		.byte	19
+ 756 02d7 08       		.byte	8
+ 757 02d8 17       		.byte	23
+ 758 02d9 04       		.byte	4
+ 759 02da 1B       		.byte	27
+ 760 02db 01       		.byte	1
+ 761 02dc 1D       		.byte	29
+ 762 02dd 80       		.byte	-128
+ 763 02de 1F       		.byte	31
+ 764 02df 40       		.byte	64
+ 765 02e0 21       		.byte	33
+ 766 02e1 10       		.byte	16
+ 767 02e2 23       		.byte	35
+ 768 02e3 20       		.byte	32
+ 769 02e4 25       		.byte	37
+ 770 02e5 08       		.byte	8
+ 771 02e6 26       		.byte	38
+ 772 02e7 01       		.byte	1
+ 773 02e8 29       		.byte	41
+ 774 02e9 01       		.byte	1
+ 775 02ea 2D       		.byte	45
+ 776 02eb 02       		.byte	2
+ 777 02ec 33       		.byte	51
+ 778 02ed FF       		.byte	-1
+ 779 02ee 36       		.byte	54
+ 780 02ef 01       		.byte	1
+ 781 02f0 3F       		.byte	63
+ 782 02f1 04       		.byte	4
+ 783 02f2 56       		.byte	86
+ 784 02f3 02       		.byte	2
+ 785 02f4 57       		.byte	87
+ 786 02f5 35       		.byte	53
+ 787 02f6 58       		.byte	88
+ 788 02f7 04       		.byte	4
+ 789 02f8 59       		.byte	89
+ 790 02f9 04       		.byte	4
+ 791 02fa 5B       		.byte	91
+ 792 02fb 0C       		.byte	12
+ 793 02fc 5C       		.byte	92
+ 794 02fd 01       		.byte	1
+ 795 02fe 5D       		.byte	93
+ 796 02ff 10       		.byte	16
+ 797 0300 5F       		.byte	95
+ 798 0301 01       		.byte	1
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 15
+
+
+ 799 0302 D8       		.byte	-40
+ 800 0303 04       		.byte	4
+ 801 0304 D9       		.byte	-39
+ 802 0305 04       		.byte	4
+ 803 0306 DC       		.byte	-36
+ 804 0307 11       		.byte	17
+ 805 0308 DF       		.byte	-33
+ 806 0309 01       		.byte	1
+ 807 030a 02       		.byte	2
+ 808 030b 0A       		.byte	10
+ 809 030c 03       		.byte	3
+ 810 030d 10       		.byte	16
+ 811 030e 04       		.byte	4
+ 812 030f 11       		.byte	17
+ 813 0310 07       		.byte	7
+ 814 0311 28       		.byte	40
+ 815 0312 0B       		.byte	11
+ 816 0313 84       		.byte	-124
+ 817 0314 0C       		.byte	12
+ 818 0315 04       		.byte	4
+ 819 0316 0F       		.byte	15
+ 820 0317 84       		.byte	-124
+ 821 0318 11       		.byte	17
+ 822 0319 80       		.byte	-128
+ 823 031a 13       		.byte	19
+ 824 031b 08       		.byte	8
+ 825 031c 17       		.byte	23
+ 826 031d 05       		.byte	5
+ 827 031e 1C       		.byte	28
+ 828 031f 03       		.byte	3
+ 829 0320 1F       		.byte	31
+ 830 0321 40       		.byte	64
+ 831 0322 25       		.byte	37
+ 832 0323 08       		.byte	8
+ 833 0324 2B       		.byte	43
+ 834 0325 40       		.byte	64
+ 835 0326 2D       		.byte	45
+ 836 0327 A0       		.byte	-96
+ 837 0328 2E       		.byte	46
+ 838 0329 80       		.byte	-128
+ 839 032a 2F       		.byte	47
+ 840 032b 60       		.byte	96
+ 841 032c 32       		.byte	50
+ 842 032d 0A       		.byte	10
+ 843 032e 33       		.byte	51
+ 844 032f 10       		.byte	16
+ 845 0330 34       		.byte	52
+ 846 0331 04       		.byte	4
+ 847 0332 36       		.byte	54
+ 848 0333 4A       		.byte	74
+ 849 0334 37       		.byte	55
+ 850 0335 31       		.byte	49
+ 851 0336 38       		.byte	56
+ 852 0337 15       		.byte	21
+ 853 0338 3C       		.byte	60
+ 854 0339 04       		.byte	4
+ 855 033a 3D       		.byte	61
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 16
+
+
+ 856 033b 90       		.byte	-112
+ 857 033c 3E       		.byte	62
+ 858 033d 01       		.byte	1
+ 859 033e 3F       		.byte	63
+ 860 033f C4       		.byte	-60
+ 861 0340 5E       		.byte	94
+ 862 0341 20       		.byte	32
+ 863 0342 67       		.byte	103
+ 864 0343 08       		.byte	8
+ 865 0344 6D       		.byte	109
+ 866 0345 50       		.byte	80
+ 867 0346 6E       		.byte	110
+ 868 0347 89       		.byte	-119
+ 869 0348 6F       		.byte	111
+ 870 0349 24       		.byte	36
+ 871 034a 75       		.byte	117
+ 872 034b A0       		.byte	-96
+ 873 034c 76       		.byte	118
+ 874 034d 08       		.byte	8
+ 875 034e 7F       		.byte	127
+ 876 034f 02       		.byte	2
+ 877 0350 82       		.byte	-126
+ 878 0351 0A       		.byte	10
+ 879 0352 85       		.byte	-123
+ 880 0353 40       		.byte	64
+ 881 0354 90       		.byte	-112
+ 882 0355 10       		.byte	16
+ 883 0356 94       		.byte	-108
+ 884 0357 04       		.byte	4
+ 885 0358 96       		.byte	-106
+ 886 0359 41       		.byte	65
+ 887 035a 97       		.byte	-105
+ 888 035b 80       		.byte	-128
+ 889 035c 9D       		.byte	-99
+ 890 035d 20       		.byte	32
+ 891 035e 9E       		.byte	-98
+ 892 035f 80       		.byte	-128
+ 893 0360 9F       		.byte	-97
+ 894 0361 10       		.byte	16
+ 895 0362 A1       		.byte	-95
+ 896 0363 40       		.byte	64
+ 897 0364 A2       		.byte	-94
+ 898 0365 0A       		.byte	10
+ 899 0366 A4       		.byte	-92
+ 900 0367 01       		.byte	1
+ 901 0368 A5       		.byte	-91
+ 902 0369 08       		.byte	8
+ 903 036a A6       		.byte	-90
+ 904 036b 04       		.byte	4
+ 905 036c AA       		.byte	-86
+ 906 036d 40       		.byte	64
+ 907 036e B0       		.byte	-80
+ 908 036f 10       		.byte	16
+ 909 0370 B1       		.byte	-79
+ 910 0371 80       		.byte	-128
+ 911 0372 C0       		.byte	-64
+ 912 0373 77       		.byte	119
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 17
+
+
+ 913 0374 C2       		.byte	-62
+ 914 0375 7A       		.byte	122
+ 915 0376 C4       		.byte	-60
+ 916 0377 35       		.byte	53
+ 917 0378 CA       		.byte	-54
+ 918 0379 F1       		.byte	-15
+ 919 037a CC       		.byte	-52
+ 920 037b F7       		.byte	-9
+ 921 037c CE       		.byte	-50
+ 922 037d F7       		.byte	-9
+ 923 037e D6       		.byte	-42
+ 924 037f 20       		.byte	32
+ 925 0380 D8       		.byte	-40
+ 926 0381 20       		.byte	32
+ 927 0382 DE       		.byte	-34
+ 928 0383 10       		.byte	16
+ 929 0384 EE       		.byte	-18
+ 930 0385 80       		.byte	-128
+ 931 0386 58       		.byte	88
+ 932 0387 04       		.byte	4
+ 933 0388 59       		.byte	89
+ 934 0389 04       		.byte	4
+ 935 038a 5C       		.byte	92
+ 936 038b 11       		.byte	17
+ 937 038c 5F       		.byte	95
+ 938 038d 01       		.byte	1
+ 939 038e 82       		.byte	-126
+ 940 038f 02       		.byte	2
+ 941 0390 84       		.byte	-124
+ 942 0391 01       		.byte	1
+ 943 0392 8A       		.byte	-118
+ 944 0393 01       		.byte	1
+ 945 0394 90       		.byte	-112
+ 946 0395 02       		.byte	2
+ 947 0396 96       		.byte	-106
+ 948 0397 10       		.byte	16
+ 949 0398 9A       		.byte	-102
+ 950 0399 08       		.byte	8
+ 951 039a 9E       		.byte	-98
+ 952 039b 04       		.byte	4
+ 953 039c A3       		.byte	-93
+ 954 039d 02       		.byte	2
+ 955 039e A7       		.byte	-89
+ 956 039f 04       		.byte	4
+ 957 03a0 A8       		.byte	-88
+ 958 03a1 04       		.byte	4
+ 959 03a2 AC       		.byte	-84
+ 960 03a3 08       		.byte	8
+ 961 03a4 AF       		.byte	-81
+ 962 03a5 01       		.byte	1
+ 963 03a6 B1       		.byte	-79
+ 964 03a7 04       		.byte	4
+ 965 03a8 B2       		.byte	-78
+ 966 03a9 1F       		.byte	31
+ 967 03aa B3       		.byte	-77
+ 968 03ab 02       		.byte	2
+ 969 03ac B7       		.byte	-73
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 18
+
+
+ 970 03ad 01       		.byte	1
+ 971 03ae B8       		.byte	-72
+ 972 03af 08       		.byte	8
+ 973 03b0 BE       		.byte	-66
+ 974 03b1 04       		.byte	4
+ 975 03b2 D8       		.byte	-40
+ 976 03b3 04       		.byte	4
+ 977 03b4 D9       		.byte	-39
+ 978 03b5 04       		.byte	4
+ 979 03b6 DC       		.byte	-36
+ 980 03b7 11       		.byte	17
+ 981 03b8 DF       		.byte	-33
+ 982 03b9 01       		.byte	1
+ 983 03ba 00       		.byte	0
+ 984 03bb 12       		.byte	18
+ 985 03bc 02       		.byte	2
+ 986 03bd 02       		.byte	2
+ 987 03be 03       		.byte	3
+ 988 03bf 10       		.byte	16
+ 989 03c0 05       		.byte	5
+ 990 03c1 A0       		.byte	-96
+ 991 03c2 06       		.byte	6
+ 992 03c3 80       		.byte	-128
+ 993 03c4 07       		.byte	7
+ 994 03c5 10       		.byte	16
+ 995 03c6 0D       		.byte	13
+ 996 03c7 08       		.byte	8
+ 997 03c8 0E       		.byte	14
+ 998 03c9 8D       		.byte	-115
+ 999 03ca 11       		.byte	17
+ 1000 03cb 84       		.byte	-124
+ 1001 03cc 12       		.byte	18
+ 1002 03cd 08       		.byte	8
+ 1003 03ce 15       		.byte	21
+ 1004 03cf 05       		.byte	5
+ 1005 03d0 17       		.byte	23
+ 1006 03d1 60       		.byte	96
+ 1007 03d2 1C       		.byte	28
+ 1008 03d3 30       		.byte	48
+ 1009 03d4 24       		.byte	36
+ 1010 03d5 01       		.byte	1
+ 1011 03d6 25       		.byte	37
+ 1012 03d7 40       		.byte	64
+ 1013 03d8 26       		.byte	38
+ 1014 03d9 4A       		.byte	74
+ 1015 03da 27       		.byte	39
+ 1016 03db 60       		.byte	96
+ 1017 03dc 2E       		.byte	46
+ 1018 03dd 85       		.byte	-123
+ 1019 03de 32       		.byte	50
+ 1020 03df 0A       		.byte	10
+ 1021 03e0 33       		.byte	51
+ 1022 03e1 10       		.byte	16
+ 1023 03e2 36       		.byte	54
+ 1024 03e3 0A       		.byte	10
+ 1025 03e4 37       		.byte	55
+ 1026 03e5 10       		.byte	16
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 19
+
+
+ 1027 03e6 38       		.byte	56
+ 1028 03e7 15       		.byte	21
+ 1029 03e8 3B       		.byte	59
+ 1030 03e9 80       		.byte	-128
+ 1031 03ea 3C       		.byte	60
+ 1032 03eb 26       		.byte	38
+ 1033 03ec 3D       		.byte	61
+ 1034 03ed 85       		.byte	-123
+ 1035 03ee C0       		.byte	-64
+ 1036 03ef FF       		.byte	-1
+ 1037 03f0 C2       		.byte	-62
+ 1038 03f1 F0       		.byte	-16
+ 1039 03f2 C4       		.byte	-60
+ 1040 03f3 F7       		.byte	-9
+ 1041 03f4 CA       		.byte	-54
+ 1042 03f5 D0       		.byte	-48
+ 1043 03f6 CC       		.byte	-52
+ 1044 03f7 E7       		.byte	-25
+ 1045 03f8 CE       		.byte	-50
+ 1046 03f9 FF       		.byte	-1
+ 1047 03fa E0       		.byte	-32
+ 1048 03fb 40       		.byte	64
+ 1049 03fc E2       		.byte	-30
+ 1050 03fd 28       		.byte	40
+ 1051 03fe 02       		.byte	2
+ 1052 03ff 03       		.byte	3
+ 1053 0400 03       		.byte	3
+ 1054 0401 05       		.byte	5
+ 1055 0402 04       		.byte	4
+ 1056 0403 09       		.byte	9
+ 1057 0404 06       		.byte	6
+ 1058 0405 10       		.byte	16
+ 1059 0406 07       		.byte	7
+ 1060 0407 01       		.byte	1
+ 1061 0408 0F       		.byte	15
+ 1062 0409 03       		.byte	3
+ 1063 040a 10       		.byte	16
+ 1064 040b 1C       		.byte	28
+ 1065 040c 12       		.byte	18
+ 1066 040d 22       		.byte	34
+ 1067 040e 17       		.byte	23
+ 1068 040f 02       		.byte	2
+ 1069 0410 18       		.byte	24
+ 1070 0411 14       		.byte	20
+ 1071 0412 20       		.byte	32
+ 1072 0413 30       		.byte	48
+ 1073 0414 21       		.byte	33
+ 1074 0415 08       		.byte	8
+ 1075 0416 22       		.byte	34
+ 1076 0417 0C       		.byte	12
+ 1077 0418 24       		.byte	36
+ 1078 0419 40       		.byte	64
+ 1079 041a 28       		.byte	40
+ 1080 041b 10       		.byte	16
+ 1081 041c 2B       		.byte	43
+ 1082 041d 06       		.byte	6
+ 1083 041e 2C       		.byte	44
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 20
+
+
+ 1084 041f 2C       		.byte	44
+ 1085 0420 2D       		.byte	45
+ 1086 0421 06       		.byte	6
+ 1087 0422 2E       		.byte	46
+ 1088 0423 11       		.byte	17
+ 1089 0424 2F       		.byte	47
+ 1090 0425 01       		.byte	1
+ 1091 0426 30       		.byte	48
+ 1092 0427 1F       		.byte	31
+ 1093 0428 33       		.byte	51
+ 1094 0429 08       		.byte	8
+ 1095 042a 34       		.byte	52
+ 1096 042b 60       		.byte	96
+ 1097 042c 37       		.byte	55
+ 1098 042d 07       		.byte	7
+ 1099 042e 38       		.byte	56
+ 1100 042f 20       		.byte	32
+ 1101 0430 3B       		.byte	59
+ 1102 0431 80       		.byte	-128
+ 1103 0432 3F       		.byte	63
+ 1104 0433 04       		.byte	4
+ 1105 0434 58       		.byte	88
+ 1106 0435 04       		.byte	4
+ 1107 0436 59       		.byte	89
+ 1108 0437 04       		.byte	4
+ 1109 0438 5C       		.byte	92
+ 1110 0439 22       		.byte	34
+ 1111 043a 5F       		.byte	95
+ 1112 043b 01       		.byte	1
+ 1113 043c 90       		.byte	-112
+ 1114 043d 02       		.byte	2
+ 1115 043e 9A       		.byte	-102
+ 1116 043f 01       		.byte	1
+ 1117 0440 9C       		.byte	-100
+ 1118 0441 03       		.byte	3
+ 1119 0442 AC       		.byte	-84
+ 1120 0443 03       		.byte	3
+ 1121 0444 B2       		.byte	-78
+ 1122 0445 03       		.byte	3
+ 1123 0446 B8       		.byte	-72
+ 1124 0447 08       		.byte	8
+ 1125 0448 BE       		.byte	-66
+ 1126 0449 04       		.byte	4
+ 1127 044a C0       		.byte	-64
+ 1128 044b 03       		.byte	3
+ 1129 044c C7       		.byte	-57
+ 1130 044d 04       		.byte	4
+ 1131 044e C9       		.byte	-55
+ 1132 044f FF       		.byte	-1
+ 1133 0450 CA       		.byte	-54
+ 1134 0451 07       		.byte	7
+ 1135 0452 CB       		.byte	-53
+ 1136 0453 FF       		.byte	-1
+ 1137 0454 CC       		.byte	-52
+ 1138 0455 40       		.byte	64
+ 1139 0456 CD       		.byte	-51
+ 1140 0457 20       		.byte	32
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 21
+
+
+ 1141 0458 CE       		.byte	-50
+ 1142 0459 F0       		.byte	-16
+ 1143 045a CF       		.byte	-49
+ 1144 045b 05       		.byte	5
+ 1145 045c D0       		.byte	-48
+ 1146 045d 08       		.byte	8
+ 1147 045e D8       		.byte	-40
+ 1148 045f 04       		.byte	4
+ 1149 0460 D9       		.byte	-39
+ 1150 0461 04       		.byte	4
+ 1151 0462 DA       		.byte	-38
+ 1152 0463 04       		.byte	4
+ 1153 0464 DC       		.byte	-36
+ 1154 0465 11       		.byte	17
+ 1155 0466 DD       		.byte	-35
+ 1156 0467 02       		.byte	2
+ 1157 0468 DF       		.byte	-33
+ 1158 0469 01       		.byte	1
+ 1159 046a E0       		.byte	-32
+ 1160 046b 40       		.byte	64
+ 1161 046c E1       		.byte	-31
+ 1162 046d A8       		.byte	-88
+ 1163 046e E2       		.byte	-30
+ 1164 046f 40       		.byte	64
+ 1165 0470 E3       		.byte	-29
+ 1166 0471 20       		.byte	32
+ 1167 0472 00       		.byte	0
+ 1168 0473 04       		.byte	4
+ 1169 0474 01       		.byte	1
+ 1170 0475 02       		.byte	2
+ 1171 0476 05       		.byte	5
+ 1172 0477 81       		.byte	-127
+ 1173 0478 07       		.byte	7
+ 1174 0479 28       		.byte	40
+ 1175 047a 09       		.byte	9
+ 1176 047b 20       		.byte	32
+ 1177 047c 0A       		.byte	10
+ 1178 047d 40       		.byte	64
+ 1179 047e 0C       		.byte	12
+ 1180 047f 01       		.byte	1
+ 1181 0480 0D       		.byte	13
+ 1182 0481 14       		.byte	20
+ 1183 0482 0E       		.byte	14
+ 1184 0483 41       		.byte	65
+ 1185 0484 0F       		.byte	15
+ 1186 0485 09       		.byte	9
+ 1187 0486 10       		.byte	16
+ 1188 0487 08       		.byte	8
+ 1189 0488 11       		.byte	17
+ 1190 0489 04       		.byte	4
+ 1191 048a 13       		.byte	19
+ 1192 048b 81       		.byte	-127
+ 1193 048c 14       		.byte	20
+ 1194 048d 50       		.byte	80
+ 1195 048e 15       		.byte	21
+ 1196 048f 80       		.byte	-128
+ 1197 0490 17       		.byte	23
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 22
+
+
+ 1198 0491 80       		.byte	-128
+ 1199 0492 18       		.byte	24
+ 1200 0493 04       		.byte	4
+ 1201 0494 19       		.byte	25
+ 1202 0495 12       		.byte	18
+ 1203 0496 1D       		.byte	29
+ 1204 0497 08       		.byte	8
+ 1205 0498 20       		.byte	32
+ 1206 0499 02       		.byte	2
+ 1207 049a 21       		.byte	33
+ 1208 049b 40       		.byte	64
+ 1209 049c 23       		.byte	35
+ 1210 049d 12       		.byte	18
+ 1211 049e 28       		.byte	40
+ 1212 049f 01       		.byte	1
+ 1213 04a0 29       		.byte	41
+ 1214 04a1 12       		.byte	18
+ 1215 04a2 2C       		.byte	44
+ 1216 04a3 40       		.byte	64
+ 1217 04a4 2F       		.byte	47
+ 1218 04a5 02       		.byte	2
+ 1219 04a6 30       		.byte	48
+ 1220 04a7 08       		.byte	8
+ 1221 04a8 31       		.byte	49
+ 1222 04a9 03       		.byte	3
+ 1223 04aa 33       		.byte	51
+ 1224 04ab 02       		.byte	2
+ 1225 04ac 35       		.byte	53
+ 1226 04ad 80       		.byte	-128
+ 1227 04ae 37       		.byte	55
+ 1228 04af 28       		.byte	40
+ 1229 04b0 39       		.byte	57
+ 1230 04b1 84       		.byte	-124
+ 1231 04b2 3B       		.byte	59
+ 1232 04b3 01       		.byte	1
+ 1233 04b4 3C       		.byte	60
+ 1234 04b5 20       		.byte	32
+ 1235 04b6 3E       		.byte	62
+ 1236 04b7 10       		.byte	16
+ 1237 04b8 3F       		.byte	63
+ 1238 04b9 40       		.byte	64
+ 1239 04ba 45       		.byte	69
+ 1240 04bb 08       		.byte	8
+ 1241 04bc 4D       		.byte	77
+ 1242 04bd 04       		.byte	4
+ 1243 04be 4F       		.byte	79
+ 1244 04bf 08       		.byte	8
+ 1245 04c0 54       		.byte	84
+ 1246 04c1 08       		.byte	8
+ 1247 04c2 81       		.byte	-127
+ 1248 04c3 80       		.byte	-128
+ 1249 04c4 82       		.byte	-126
+ 1250 04c5 01       		.byte	1
+ 1251 04c6 83       		.byte	-125
+ 1252 04c7 12       		.byte	18
+ 1253 04c8 84       		.byte	-124
+ 1254 04c9 10       		.byte	16
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 23
+
+
+ 1255 04ca 85       		.byte	-123
+ 1256 04cb 04       		.byte	4
+ 1257 04cc 87       		.byte	-121
+ 1258 04cd 20       		.byte	32
+ 1259 04ce 88       		.byte	-120
+ 1260 04cf 50       		.byte	80
+ 1261 04d0 8B       		.byte	-117
+ 1262 04d1 50       		.byte	80
+ 1263 04d2 8D       		.byte	-115
+ 1264 04d3 01       		.byte	1
+ 1265 04d4 92       		.byte	-110
+ 1266 04d5 41       		.byte	65
+ 1267 04d6 93       		.byte	-109
+ 1268 04d7 40       		.byte	64
+ 1269 04d8 94       		.byte	-108
+ 1270 04d9 04       		.byte	4
+ 1271 04da 95       		.byte	-107
+ 1272 04db 20       		.byte	32
+ 1273 04dc 96       		.byte	-106
+ 1274 04dd 10       		.byte	16
+ 1275 04de 98       		.byte	-104
+ 1276 04df 40       		.byte	64
+ 1277 04e0 9B       		.byte	-101
+ 1278 04e1 28       		.byte	40
+ 1279 04e2 9E       		.byte	-98
+ 1280 04e3 01       		.byte	1
+ 1281 04e4 9F       		.byte	-97
+ 1282 04e5 02       		.byte	2
+ 1283 04e6 A1       		.byte	-95
+ 1284 04e7 22       		.byte	34
+ 1285 04e8 A4       		.byte	-92
+ 1286 04e9 09       		.byte	9
+ 1287 04ea A7       		.byte	-89
+ 1288 04eb 14       		.byte	20
+ 1289 04ec AF       		.byte	-81
+ 1290 04ed 08       		.byte	8
+ 1291 04ee B4       		.byte	-76
+ 1292 04ef 80       		.byte	-128
+ 1293 04f0 B5       		.byte	-75
+ 1294 04f1 10       		.byte	16
+ 1295 04f2 B7       		.byte	-73
+ 1296 04f3 11       		.byte	17
+ 1297 04f4 C0       		.byte	-64
+ 1298 04f5 FC       		.byte	-4
+ 1299 04f6 C2       		.byte	-62
+ 1300 04f7 FA       		.byte	-6
+ 1301 04f8 C4       		.byte	-60
+ 1302 04f9 BF       		.byte	-65
+ 1303 04fa CA       		.byte	-54
+ 1304 04fb 9D       		.byte	-99
+ 1305 04fc CC       		.byte	-52
+ 1306 04fd 72       		.byte	114
+ 1307 04fe CE       		.byte	-50
+ 1308 04ff 3B       		.byte	59
+ 1309 0500 D0       		.byte	-48
+ 1310 0501 40       		.byte	64
+ 1311 0502 E0       		.byte	-32
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 24
+
+
+ 1312 0503 02       		.byte	2
+ 1313 0504 E2       		.byte	-30
+ 1314 0505 0C       		.byte	12
+ 1315 0506 E6       		.byte	-26
+ 1316 0507 08       		.byte	8
+ 1317 0508 E8       		.byte	-24
+ 1318 0509 08       		.byte	8
+ 1319 050a EA       		.byte	-22
+ 1320 050b 01       		.byte	1
+ 1321 050c EC       		.byte	-20
+ 1322 050d 30       		.byte	48
+ 1323 050e 06       		.byte	6
+ 1324 050f 0C       		.byte	12
+ 1325 0510 0C       		.byte	12
+ 1326 0511 01       		.byte	1
+ 1327 0512 0E       		.byte	14
+ 1328 0513 06       		.byte	6
+ 1329 0514 10       		.byte	16
+ 1330 0515 0C       		.byte	12
+ 1331 0516 12       		.byte	18
+ 1332 0517 03       		.byte	3
+ 1333 0518 16       		.byte	22
+ 1334 0519 08       		.byte	8
+ 1335 051a 1A       		.byte	26
+ 1336 051b 03       		.byte	3
+ 1337 051c 20       		.byte	32
+ 1338 051d 01       		.byte	1
+ 1339 051e 22       		.byte	34
+ 1340 051f 0E       		.byte	14
+ 1341 0520 30       		.byte	48
+ 1342 0521 0F       		.byte	15
+ 1343 0522 3A       		.byte	58
+ 1344 0523 02       		.byte	2
+ 1345 0524 58       		.byte	88
+ 1346 0525 04       		.byte	4
+ 1347 0526 59       		.byte	89
+ 1348 0527 04       		.byte	4
+ 1349 0528 5C       		.byte	92
+ 1350 0529 12       		.byte	18
+ 1351 052a 5F       		.byte	95
+ 1352 052b 01       		.byte	1
+ 1353 052c 80       		.byte	-128
+ 1354 052d 03       		.byte	3
+ 1355 052e 82       		.byte	-126
+ 1356 052f 04       		.byte	4
+ 1357 0530 86       		.byte	-122
+ 1358 0531 08       		.byte	8
+ 1359 0532 8C       		.byte	-116
+ 1360 0533 03       		.byte	3
+ 1361 0534 8E       		.byte	-114
+ 1362 0535 0C       		.byte	12
+ 1363 0536 90       		.byte	-112
+ 1364 0537 0A       		.byte	10
+ 1365 0538 92       		.byte	-110
+ 1366 0539 04       		.byte	4
+ 1367 053a 96       		.byte	-106
+ 1368 053b 05       		.byte	5
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 25
+
+
+ 1369 053c 98       		.byte	-104
+ 1370 053d 10       		.byte	16
+ 1371 053e 9B       		.byte	-101
+ 1372 053f 01       		.byte	1
+ 1373 0540 A0       		.byte	-96
+ 1374 0541 03       		.byte	3
+ 1375 0542 A1       		.byte	-95
+ 1376 0543 01       		.byte	1
+ 1377 0544 A2       		.byte	-94
+ 1378 0545 04       		.byte	4
+ 1379 0546 A5       		.byte	-91
+ 1380 0547 01       		.byte	1
+ 1381 0548 AB       		.byte	-85
+ 1382 0549 01       		.byte	1
+ 1383 054a AF       		.byte	-81
+ 1384 054b 01       		.byte	1
+ 1385 054c B4       		.byte	-76
+ 1386 054d 10       		.byte	16
+ 1387 054e B6       		.byte	-74
+ 1388 054f 0F       		.byte	15
+ 1389 0550 B7       		.byte	-73
+ 1390 0551 01       		.byte	1
+ 1391 0552 BA       		.byte	-70
+ 1392 0553 80       		.byte	-128
+ 1393 0554 BE       		.byte	-66
+ 1394 0555 10       		.byte	16
+ 1395 0556 BF       		.byte	-65
+ 1396 0557 40       		.byte	64
+ 1397 0558 C0       		.byte	-64
+ 1398 0559 12       		.byte	18
+ 1399 055a C1       		.byte	-63
+ 1400 055b 05       		.byte	5
+ 1401 055c C5       		.byte	-59
+ 1402 055d E0       		.byte	-32
+ 1403 055e C6       		.byte	-58
+ 1404 055f BC       		.byte	-68
+ 1405 0560 C7       		.byte	-57
+ 1406 0561 0E       		.byte	14
+ 1407 0562 C8       		.byte	-56
+ 1408 0563 1E       		.byte	30
+ 1409 0564 C9       		.byte	-55
+ 1410 0565 FF       		.byte	-1
+ 1411 0566 CA       		.byte	-54
+ 1412 0567 FF       		.byte	-1
+ 1413 0568 CB       		.byte	-53
+ 1414 0569 FF       		.byte	-1
+ 1415 056a CE       		.byte	-50
+ 1416 056b F0       		.byte	-16
+ 1417 056c CF       		.byte	-49
+ 1418 056d 44       		.byte	68
+ 1419 056e D0       		.byte	-48
+ 1420 056f 0C       		.byte	12
+ 1421 0570 D4       		.byte	-44
+ 1422 0571 01       		.byte	1
+ 1423 0572 D8       		.byte	-40
+ 1424 0573 04       		.byte	4
+ 1425 0574 D9       		.byte	-39
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 26
+
+
+ 1426 0575 04       		.byte	4
+ 1427 0576 DA       		.byte	-38
+ 1428 0577 04       		.byte	4
+ 1429 0578 DB       		.byte	-37
+ 1430 0579 04       		.byte	4
+ 1431 057a DC       		.byte	-36
+ 1432 057b 12       		.byte	18
+ 1433 057c DD       		.byte	-35
+ 1434 057d 22       		.byte	34
+ 1435 057e DF       		.byte	-33
+ 1436 057f 01       		.byte	1
+ 1437 0580 E6       		.byte	-26
+ 1438 0581 C0       		.byte	-64
+ 1439 0582 EA       		.byte	-22
+ 1440 0583 40       		.byte	64
+ 1441 0584 EB       		.byte	-21
+ 1442 0585 02       		.byte	2
+ 1443 0586 00       		.byte	0
+ 1444 0587 06       		.byte	6
+ 1445 0588 01       		.byte	1
+ 1446 0589 80       		.byte	-128
+ 1447 058a 04       		.byte	4
+ 1448 058b 04       		.byte	4
+ 1449 058c 05       		.byte	5
+ 1450 058d 80       		.byte	-128
+ 1451 058e 08       		.byte	8
+ 1452 058f 08       		.byte	8
+ 1453 0590 0A       		.byte	10
+ 1454 0591 40       		.byte	64
+ 1455 0592 0B       		.byte	11
+ 1456 0593 08       		.byte	8
+ 1457 0594 0C       		.byte	12
+ 1458 0595 08       		.byte	8
+ 1459 0596 0E       		.byte	14
+ 1460 0597 40       		.byte	64
+ 1461 0598 0F       		.byte	15
+ 1462 0599 08       		.byte	8
+ 1463 059a 12       		.byte	18
+ 1464 059b 40       		.byte	64
+ 1465 059c 17       		.byte	23
+ 1466 059d 02       		.byte	2
+ 1467 059e 19       		.byte	25
+ 1468 059f 80       		.byte	-128
+ 1469 05a0 1A       		.byte	26
+ 1470 05a1 09       		.byte	9
+ 1471 05a2 1B       		.byte	27
+ 1472 05a3 40       		.byte	64
+ 1473 05a4 1E       		.byte	30
+ 1474 05a5 40       		.byte	64
+ 1475 05a6 1F       		.byte	31
+ 1476 05a7 01       		.byte	1
+ 1477 05a8 22       		.byte	34
+ 1478 05a9 40       		.byte	64
+ 1479 05aa 28       		.byte	40
+ 1480 05ab 08       		.byte	8
+ 1481 05ac 2A       		.byte	42
+ 1482 05ad 40       		.byte	64
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 27
+
+
+ 1483 05ae 2B       		.byte	43
+ 1484 05af 54       		.byte	84
+ 1485 05b0 2C       		.byte	44
+ 1486 05b1 44       		.byte	68
+ 1487 05b2 2D       		.byte	45
+ 1488 05b3 40       		.byte	64
+ 1489 05b4 2E       		.byte	46
+ 1490 05b5 10       		.byte	16
+ 1491 05b6 30       		.byte	48
+ 1492 05b7 44       		.byte	68
+ 1493 05b8 31       		.byte	49
+ 1494 05b9 12       		.byte	18
+ 1495 05ba 33       		.byte	51
+ 1496 05bb 01       		.byte	1
+ 1497 05bc 37       		.byte	55
+ 1498 05bd 09       		.byte	9
+ 1499 05be 39       		.byte	57
+ 1500 05bf 44       		.byte	68
+ 1501 05c0 3A       		.byte	58
+ 1502 05c1 11       		.byte	17
+ 1503 05c2 3B       		.byte	59
+ 1504 05c3 01       		.byte	1
+ 1505 05c4 3F       		.byte	63
+ 1506 05c5 41       		.byte	65
+ 1507 05c6 41       		.byte	65
+ 1508 05c7 10       		.byte	16
+ 1509 05c8 42       		.byte	66
+ 1510 05c9 01       		.byte	1
+ 1511 05ca 46       		.byte	70
+ 1512 05cb 10       		.byte	16
+ 1513 05cc 47       		.byte	71
+ 1514 05cd 08       		.byte	8
+ 1515 05ce 48       		.byte	72
+ 1516 05cf 01       		.byte	1
+ 1517 05d0 49       		.byte	73
+ 1518 05d1 01       		.byte	1
+ 1519 05d2 50       		.byte	80
+ 1520 05d3 80       		.byte	-128
+ 1521 05d4 51       		.byte	81
+ 1522 05d5 20       		.byte	32
+ 1523 05d6 52       		.byte	82
+ 1524 05d7 40       		.byte	64
+ 1525 05d8 53       		.byte	83
+ 1526 05d9 04       		.byte	4
+ 1527 05da 59       		.byte	89
+ 1528 05db 01       		.byte	1
+ 1529 05dc 5A       		.byte	90
+ 1530 05dd 88       		.byte	-120
+ 1531 05de 5B       		.byte	91
+ 1532 05df 10       		.byte	16
+ 1533 05e0 85       		.byte	-123
+ 1534 05e1 04       		.byte	4
+ 1535 05e2 87       		.byte	-121
+ 1536 05e3 40       		.byte	64
+ 1537 05e4 91       		.byte	-111
+ 1538 05e5 40       		.byte	64
+ 1539 05e6 93       		.byte	-109
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 28
+
+
+ 1540 05e7 40       		.byte	64
+ 1541 05e8 96       		.byte	-106
+ 1542 05e9 10       		.byte	16
+ 1543 05ea 98       		.byte	-104
+ 1544 05eb 40       		.byte	64
+ 1545 05ec 9B       		.byte	-101
+ 1546 05ed 28       		.byte	40
+ 1547 05ee 9C       		.byte	-100
+ 1548 05ef 04       		.byte	4
+ 1549 05f0 9E       		.byte	-98
+ 1550 05f1 11       		.byte	17
+ 1551 05f2 A1       		.byte	-95
+ 1552 05f3 02       		.byte	2
+ 1553 05f4 C0       		.byte	-64
+ 1554 05f5 AD       		.byte	-83
+ 1555 05f6 C2       		.byte	-62
+ 1556 05f7 7E       		.byte	126
+ 1557 05f8 C4       		.byte	-60
+ 1558 05f9 18       		.byte	24
+ 1559 05fa CA       		.byte	-54
+ 1560 05fb BF       		.byte	-65
+ 1561 05fc CC       		.byte	-52
+ 1562 05fd CF       		.byte	-49
+ 1563 05fe CE       		.byte	-50
+ 1564 05ff 9F       		.byte	-97
+ 1565 0600 D0       		.byte	-48
+ 1566 0601 0C       		.byte	12
+ 1567 0602 D2       		.byte	-46
+ 1568 0603 08       		.byte	8
+ 1569 0604 D6       		.byte	-42
+ 1570 0605 0F       		.byte	15
+ 1571 0606 E4       		.byte	-28
+ 1572 0607 02       		.byte	2
+ 1573 0608 E6       		.byte	-26
+ 1574 0609 04       		.byte	4
+ 1575 060a EC       		.byte	-20
+ 1576 060b 01       		.byte	1
+ 1577 060c 01       		.byte	1
+ 1578 060d 0C       		.byte	12
+ 1579 060e 02       		.byte	2
+ 1580 060f 01       		.byte	1
+ 1581 0610 03       		.byte	3
+ 1582 0611 D3       		.byte	-45
+ 1583 0612 05       		.byte	5
+ 1584 0613 82       		.byte	-126
+ 1585 0614 0B       		.byte	11
+ 1586 0615 C3       		.byte	-61
+ 1587 0616 0D       		.byte	13
+ 1588 0617 0F       		.byte	15
+ 1589 0618 0F       		.byte	15
+ 1590 0619 D0       		.byte	-48
+ 1591 061a 11       		.byte	17
+ 1592 061b C3       		.byte	-61
+ 1593 061c 15       		.byte	21
+ 1594 061d D3       		.byte	-45
+ 1595 061e 17       		.byte	23
+ 1596 061f 0C       		.byte	12
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 29
+
+
+ 1597 0620 19       		.byte	25
+ 1598 0621 0C       		.byte	12
+ 1599 0622 1D       		.byte	29
+ 1600 0623 DF       		.byte	-33
+ 1601 0624 1E       		.byte	30
+ 1602 0625 01       		.byte	1
+ 1603 0626 21       		.byte	33
+ 1604 0627 08       		.byte	8
+ 1605 0628 25       		.byte	37
+ 1606 0629 04       		.byte	4
+ 1607 062a 29       		.byte	41
+ 1608 062b 41       		.byte	65
+ 1609 062c 2B       		.byte	43
+ 1610 062d 20       		.byte	32
+ 1611 062e 31       		.byte	49
+ 1612 062f 10       		.byte	16
+ 1613 0630 32       		.byte	50
+ 1614 0631 01       		.byte	1
+ 1615 0632 33       		.byte	51
+ 1616 0633 20       		.byte	32
+ 1617 0634 35       		.byte	53
+ 1618 0635 0F       		.byte	15
+ 1619 0636 37       		.byte	55
+ 1620 0637 C0       		.byte	-64
+ 1621 0638 39       		.byte	57
+ 1622 0639 02       		.byte	2
+ 1623 063a 3B       		.byte	59
+ 1624 063b 20       		.byte	32
+ 1625 063c 3E       		.byte	62
+ 1626 063d 04       		.byte	4
+ 1627 063e 40       		.byte	64
+ 1628 063f 51       		.byte	81
+ 1629 0640 49       		.byte	73
+ 1630 0641 FF       		.byte	-1
+ 1631 0642 4A       		.byte	74
+ 1632 0643 FF       		.byte	-1
+ 1633 0644 4B       		.byte	75
+ 1634 0645 FF       		.byte	-1
+ 1635 0646 4F       		.byte	79
+ 1636 0647 01       		.byte	1
+ 1637 0648 50       		.byte	80
+ 1638 0649 18       		.byte	24
+ 1639 064a 54       		.byte	84
+ 1640 064b 18       		.byte	24
+ 1641 064c 56       		.byte	86
+ 1642 064d 04       		.byte	4
+ 1643 064e 58       		.byte	88
+ 1644 064f 04       		.byte	4
+ 1645 0650 59       		.byte	89
+ 1646 0651 04       		.byte	4
+ 1647 0652 5A       		.byte	90
+ 1648 0653 04       		.byte	4
+ 1649 0654 5B       		.byte	91
+ 1650 0655 04       		.byte	4
+ 1651 0656 5C       		.byte	92
+ 1652 0657 21       		.byte	33
+ 1653 0658 5D       		.byte	93
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 30
+
+
+ 1654 0659 29       		.byte	41
+ 1655 065a 5F       		.byte	95
+ 1656 065b 01       		.byte	1
+ 1657 065c 60       		.byte	96
+ 1658 065d 40       		.byte	64
+ 1659 065e 62       		.byte	98
+ 1660 065f 40       		.byte	64
+ 1661 0660 64       		.byte	100
+ 1662 0661 40       		.byte	64
+ 1663 0662 65       		.byte	101
+ 1664 0663 40       		.byte	64
+ 1665 0664 66       		.byte	102
+ 1666 0665 80       		.byte	-128
+ 1667 0666 68       		.byte	104
+ 1668 0667 80       		.byte	-128
+ 1669 0668 6A       		.byte	106
+ 1670 0669 80       		.byte	-128
+ 1671 066a 6C       		.byte	108
+ 1672 066b 80       		.byte	-128
+ 1673 066c 6E       		.byte	110
+ 1674 066d 80       		.byte	-128
+ 1675 066e C0       		.byte	-64
+ 1676 066f 54       		.byte	84
+ 1677 0670 C9       		.byte	-55
+ 1678 0671 FF       		.byte	-1
+ 1679 0672 CA       		.byte	-54
+ 1680 0673 FF       		.byte	-1
+ 1681 0674 CB       		.byte	-53
+ 1682 0675 FF       		.byte	-1
+ 1683 0676 CD       		.byte	-51
+ 1684 0677 83       		.byte	-125
+ 1685 0678 CE       		.byte	-50
+ 1686 0679 03       		.byte	3
+ 1687 067a CF       		.byte	-49
+ 1688 067b 01       		.byte	1
+ 1689 067c D0       		.byte	-48
+ 1690 067d 18       		.byte	24
+ 1691 067e D2       		.byte	-46
+ 1692 067f 80       		.byte	-128
+ 1693 0680 D8       		.byte	-40
+ 1694 0681 04       		.byte	4
+ 1695 0682 D9       		.byte	-39
+ 1696 0683 04       		.byte	4
+ 1697 0684 DA       		.byte	-38
+ 1698 0685 04       		.byte	4
+ 1699 0686 DB       		.byte	-37
+ 1700 0687 04       		.byte	4
+ 1701 0688 DC       		.byte	-36
+ 1702 0689 11       		.byte	17
+ 1703 068a DD       		.byte	-35
+ 1704 068b 99       		.byte	-103
+ 1705 068c DF       		.byte	-33
+ 1706 068d 01       		.byte	1
+ 1707 068e E0       		.byte	-32
+ 1708 068f 40       		.byte	64
+ 1709 0690 E2       		.byte	-30
+ 1710 0691 40       		.byte	64
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 31
+
+
+ 1711 0692 E4       		.byte	-28
+ 1712 0693 40       		.byte	64
+ 1713 0694 E5       		.byte	-27
+ 1714 0695 40       		.byte	64
+ 1715 0696 E6       		.byte	-26
+ 1716 0697 80       		.byte	-128
+ 1717 0698 E8       		.byte	-24
+ 1718 0699 80       		.byte	-128
+ 1719 069a EA       		.byte	-22
+ 1720 069b 80       		.byte	-128
+ 1721 069c EC       		.byte	-20
+ 1722 069d 80       		.byte	-128
+ 1723 069e EE       		.byte	-18
+ 1724 069f 80       		.byte	-128
+ 1725 06a0 00       		.byte	0
+ 1726 06a1 03       		.byte	3
+ 1727 06a2 01       		.byte	1
+ 1728 06a3 84       		.byte	-124
+ 1729 06a4 02       		.byte	2
+ 1730 06a5 08       		.byte	8
+ 1731 06a6 03       		.byte	3
+ 1732 06a7 10       		.byte	16
+ 1733 06a8 05       		.byte	5
+ 1734 06a9 88       		.byte	-120
+ 1735 06aa 06       		.byte	6
+ 1736 06ab 08       		.byte	8
+ 1737 06ac 07       		.byte	7
+ 1738 06ad 40       		.byte	64
+ 1739 06ae 08       		.byte	8
+ 1740 06af 01       		.byte	1
+ 1741 06b0 0B       		.byte	11
+ 1742 06b1 20       		.byte	32
+ 1743 06b2 0F       		.byte	15
+ 1744 06b3 16       		.byte	22
+ 1745 06b4 12       		.byte	18
+ 1746 06b5 10       		.byte	16
+ 1747 06b6 13       		.byte	19
+ 1748 06b7 04       		.byte	4
+ 1749 06b8 15       		.byte	21
+ 1750 06b9 04       		.byte	4
+ 1751 06ba 17       		.byte	23
+ 1752 06bb 01       		.byte	1
+ 1753 06bc 1F       		.byte	31
+ 1754 06bd 04       		.byte	4
+ 1755 06be 24       		.byte	36
+ 1756 06bf 10       		.byte	16
+ 1757 06c0 27       		.byte	39
+ 1758 06c1 46       		.byte	70
+ 1759 06c2 29       		.byte	41
+ 1760 06c3 80       		.byte	-128
+ 1761 06c4 2A       		.byte	42
+ 1762 06c5 90       		.byte	-112
+ 1763 06c6 2C       		.byte	44
+ 1764 06c7 A8       		.byte	-88
+ 1765 06c8 30       		.byte	48
+ 1766 06c9 05       		.byte	5
+ 1767 06ca 33       		.byte	51
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 32
+
+
+ 1768 06cb 11       		.byte	17
+ 1769 06cc 34       		.byte	52
+ 1770 06cd 40       		.byte	64
+ 1771 06ce 36       		.byte	54
+ 1772 06cf 02       		.byte	2
+ 1773 06d0 37       		.byte	55
+ 1774 06d1 24       		.byte	36
+ 1775 06d2 38       		.byte	56
+ 1776 06d3 01       		.byte	1
+ 1777 06d4 3A       		.byte	58
+ 1778 06d5 08       		.byte	8
+ 1779 06d6 3C       		.byte	60
+ 1780 06d7 80       		.byte	-128
+ 1781 06d8 3D       		.byte	61
+ 1782 06d9 09       		.byte	9
+ 1783 06da 3F       		.byte	63
+ 1784 06db 20       		.byte	32
+ 1785 06dc 41       		.byte	65
+ 1786 06dd 01       		.byte	1
+ 1787 06de 46       		.byte	70
+ 1788 06df 01       		.byte	1
+ 1789 06e0 4B       		.byte	75
+ 1790 06e1 40       		.byte	64
+ 1791 06e2 4C       		.byte	76
+ 1792 06e3 04       		.byte	4
+ 1793 06e4 4F       		.byte	79
+ 1794 06e5 60       		.byte	96
+ 1795 06e6 5F       		.byte	95
+ 1796 06e7 02       		.byte	2
+ 1797 06e8 66       		.byte	102
+ 1798 06e9 02       		.byte	2
+ 1799 06ea 67       		.byte	103
+ 1800 06eb 0A       		.byte	10
+ 1801 06ec 73       		.byte	115
+ 1802 06ed 40       		.byte	64
+ 1803 06ee 82       		.byte	-126
+ 1804 06ef 02       		.byte	2
+ 1805 06f0 86       		.byte	-122
+ 1806 06f1 08       		.byte	8
+ 1807 06f2 87       		.byte	-121
+ 1808 06f3 10       		.byte	16
+ 1809 06f4 89       		.byte	-119
+ 1810 06f5 21       		.byte	33
+ 1811 06f6 93       		.byte	-109
+ 1812 06f7 02       		.byte	2
+ 1813 06f8 94       		.byte	-108
+ 1814 06f9 08       		.byte	8
+ 1815 06fa 96       		.byte	-106
+ 1816 06fb 01       		.byte	1
+ 1817 06fc 9B       		.byte	-101
+ 1818 06fd 11       		.byte	17
+ 1819 06fe 9C       		.byte	-100
+ 1820 06ff 40       		.byte	64
+ 1821 0700 9E       		.byte	-98
+ 1822 0701 98       		.byte	-104
+ 1823 0702 9F       		.byte	-97
+ 1824 0703 04       		.byte	4
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 33
+
+
+ 1825 0704 A3       		.byte	-93
+ 1826 0705 01       		.byte	1
+ 1827 0706 A4       		.byte	-92
+ 1828 0707 08       		.byte	8
+ 1829 0708 A6       		.byte	-90
+ 1830 0709 06       		.byte	6
+ 1831 070a A8       		.byte	-88
+ 1832 070b 80       		.byte	-128
+ 1833 070c C0       		.byte	-64
+ 1834 070d FF       		.byte	-1
+ 1835 070e C2       		.byte	-62
+ 1836 070f EC       		.byte	-20
+ 1837 0710 C4       		.byte	-60
+ 1838 0711 34       		.byte	52
+ 1839 0712 CA       		.byte	-54
+ 1840 0713 EC       		.byte	-20
+ 1841 0714 CC       		.byte	-52
+ 1842 0715 F7       		.byte	-9
+ 1843 0716 CE       		.byte	-50
+ 1844 0717 F3       		.byte	-13
+ 1845 0718 D0       		.byte	-48
+ 1846 0719 11       		.byte	17
+ 1847 071a D2       		.byte	-46
+ 1848 071b 18       		.byte	24
+ 1849 071c D6       		.byte	-42
+ 1850 071d 80       		.byte	-128
+ 1851 071e D8       		.byte	-40
+ 1852 071f B0       		.byte	-80
+ 1853 0720 0E       		.byte	14
+ 1854 0721 01       		.byte	1
+ 1855 0722 12       		.byte	18
+ 1856 0723 01       		.byte	1
+ 1857 0724 30       		.byte	48
+ 1858 0725 01       		.byte	1
+ 1859 0726 34       		.byte	52
+ 1860 0727 01       		.byte	1
+ 1861 0728 3E       		.byte	62
+ 1862 0729 01       		.byte	1
+ 1863 072a 40       		.byte	64
+ 1864 072b 54       		.byte	84
+ 1865 072c 45       		.byte	69
+ 1866 072d EC       		.byte	-20
+ 1867 072e 47       		.byte	71
+ 1868 072f 20       		.byte	32
+ 1869 0730 48       		.byte	72
+ 1870 0731 23       		.byte	35
+ 1871 0732 49       		.byte	73
+ 1872 0733 FF       		.byte	-1
+ 1873 0734 4A       		.byte	74
+ 1874 0735 FF       		.byte	-1
+ 1875 0736 4B       		.byte	75
+ 1876 0737 FF       		.byte	-1
+ 1877 0738 4D       		.byte	77
+ 1878 0739 83       		.byte	-125
+ 1879 073a 4E       		.byte	78
+ 1880 073b 03       		.byte	3
+ 1881 073c 4F       		.byte	79
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 34
+
+
+ 1882 073d 01       		.byte	1
+ 1883 073e 50       		.byte	80
+ 1884 073f 18       		.byte	24
+ 1885 0740 54       		.byte	84
+ 1886 0741 01       		.byte	1
+ 1887 0742 58       		.byte	88
+ 1888 0743 04       		.byte	4
+ 1889 0744 59       		.byte	89
+ 1890 0745 04       		.byte	4
+ 1891 0746 5A       		.byte	90
+ 1892 0747 04       		.byte	4
+ 1893 0748 5B       		.byte	91
+ 1894 0749 04       		.byte	4
+ 1895 074a 5C       		.byte	92
+ 1896 074b 19       		.byte	25
+ 1897 074c 5D       		.byte	93
+ 1898 074d 99       		.byte	-103
+ 1899 074e 5F       		.byte	95
+ 1900 074f 01       		.byte	1
+ 1901 0750 60       		.byte	96
+ 1902 0751 40       		.byte	64
+ 1903 0752 62       		.byte	98
+ 1904 0753 40       		.byte	64
+ 1905 0754 64       		.byte	100
+ 1906 0755 40       		.byte	64
+ 1907 0756 65       		.byte	101
+ 1908 0757 40       		.byte	64
+ 1909 0758 66       		.byte	102
+ 1910 0759 80       		.byte	-128
+ 1911 075a 68       		.byte	104
+ 1912 075b 80       		.byte	-128
+ 1913 075c 6A       		.byte	106
+ 1914 075d 80       		.byte	-128
+ 1915 075e 6C       		.byte	108
+ 1916 075f 80       		.byte	-128
+ 1917 0760 6E       		.byte	110
+ 1918 0761 80       		.byte	-128
+ 1919 0762 80       		.byte	-128
+ 1920 0763 08       		.byte	8
+ 1921 0764 81       		.byte	-127
+ 1922 0765 08       		.byte	8
+ 1923 0766 83       		.byte	-125
+ 1924 0767 30       		.byte	48
+ 1925 0768 85       		.byte	-123
+ 1926 0769 3F       		.byte	63
+ 1927 076a 86       		.byte	-122
+ 1928 076b C3       		.byte	-61
+ 1929 076c 89       		.byte	-119
+ 1930 076d 3F       		.byte	63
+ 1931 076e 8A       		.byte	-118
+ 1932 076f 04       		.byte	4
+ 1933 0770 90       		.byte	-112
+ 1934 0771 3C       		.byte	60
+ 1935 0772 91       		.byte	-111
+ 1936 0773 01       		.byte	1
+ 1937 0774 92       		.byte	-110
+ 1938 0775 C1       		.byte	-63
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 35
+
+
+ 1939 0776 94       		.byte	-108
+ 1940 0777 04       		.byte	4
+ 1941 0778 95       		.byte	-107
+ 1942 0779 24       		.byte	36
+ 1943 077a 97       		.byte	-105
+ 1944 077b 0A       		.byte	10
+ 1945 077c 98       		.byte	-104
+ 1946 077d 7C       		.byte	124
+ 1947 077e 9A       		.byte	-102
+ 1948 077f 82       		.byte	-126
+ 1949 0780 9C       		.byte	-100
+ 1950 0781 10       		.byte	16
+ 1951 0782 A0       		.byte	-96
+ 1952 0783 FF       		.byte	-1
+ 1953 0784 A4       		.byte	-92
+ 1954 0785 E7       		.byte	-25
+ 1955 0786 A6       		.byte	-90
+ 1956 0787 18       		.byte	24
+ 1957 0788 A8       		.byte	-88
+ 1958 0789 18       		.byte	24
+ 1959 078a A9       		.byte	-87
+ 1960 078b 12       		.byte	18
+ 1961 078c AB       		.byte	-85
+ 1962 078d 0C       		.byte	12
+ 1963 078e B0       		.byte	-80
+ 1964 078f 98       		.byte	-104
+ 1965 0790 B1       		.byte	-79
+ 1966 0791 38       		.byte	56
+ 1967 0792 B2       		.byte	-78
+ 1968 0793 20       		.byte	32
+ 1969 0794 B3       		.byte	-77
+ 1970 0795 06       		.byte	6
+ 1971 0796 B4       		.byte	-76
+ 1972 0797 1F       		.byte	31
+ 1973 0798 B5       		.byte	-75
+ 1974 0799 01       		.byte	1
+ 1975 079a B6       		.byte	-74
+ 1976 079b 58       		.byte	88
+ 1977 079c BA       		.byte	-70
+ 1978 079d 22       		.byte	34
+ 1979 079e BB       		.byte	-69
+ 1980 079f 80       		.byte	-128
+ 1981 07a0 BE       		.byte	-66
+ 1982 07a1 04       		.byte	4
+ 1983 07a2 D6       		.byte	-42
+ 1984 07a3 02       		.byte	2
+ 1985 07a4 D7       		.byte	-41
+ 1986 07a5 11       		.byte	17
+ 1987 07a6 D8       		.byte	-40
+ 1988 07a7 04       		.byte	4
+ 1989 07a8 D9       		.byte	-39
+ 1990 07a9 04       		.byte	4
+ 1991 07aa DB       		.byte	-37
+ 1992 07ab 04       		.byte	4
+ 1993 07ac DC       		.byte	-36
+ 1994 07ad 22       		.byte	34
+ 1995 07ae DD       		.byte	-35
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 36
+
+
+ 1996 07af 20       		.byte	32
+ 1997 07b0 DF       		.byte	-33
+ 1998 07b1 01       		.byte	1
+ 1999 07b2 02       		.byte	2
+ 2000 07b3 01       		.byte	1
+ 2001 07b4 04       		.byte	4
+ 2002 07b5 19       		.byte	25
+ 2003 07b6 0B       		.byte	11
+ 2004 07b7 40       		.byte	64
+ 2005 07b8 0C       		.byte	12
+ 2006 07b9 88       		.byte	-120
+ 2007 07ba 0D       		.byte	13
+ 2008 07bb 22       		.byte	34
+ 2009 07bc 14       		.byte	20
+ 2010 07bd 40       		.byte	64
+ 2011 07be 17       		.byte	23
+ 2012 07bf 26       		.byte	38
+ 2013 07c0 1A       		.byte	26
+ 2014 07c1 40       		.byte	64
+ 2015 07c2 1B       		.byte	27
+ 2016 07c3 20       		.byte	32
+ 2017 07c4 1C       		.byte	28
+ 2018 07c5 80       		.byte	-128
+ 2019 07c6 1D       		.byte	29
+ 2020 07c7 22       		.byte	34
+ 2021 07c8 1E       		.byte	30
+ 2022 07c9 21       		.byte	33
+ 2023 07ca 24       		.byte	36
+ 2024 07cb 08       		.byte	8
+ 2025 07cc 25       		.byte	37
+ 2026 07cd 05       		.byte	5
+ 2027 07ce 26       		.byte	38
+ 2028 07cf 06       		.byte	6
+ 2029 07d0 27       		.byte	39
+ 2030 07d1 02       		.byte	2
+ 2031 07d2 2A       		.byte	42
+ 2032 07d3 10       		.byte	16
+ 2033 07d4 2B       		.byte	43
+ 2034 07d5 40       		.byte	64
+ 2035 07d6 2C       		.byte	44
+ 2036 07d7 08       		.byte	8
+ 2037 07d8 30       		.byte	48
+ 2038 07d9 05       		.byte	5
+ 2039 07da 33       		.byte	51
+ 2040 07db 12       		.byte	18
+ 2041 07dc 36       		.byte	54
+ 2042 07dd 04       		.byte	4
+ 2043 07de 37       		.byte	55
+ 2044 07df 01       		.byte	1
+ 2045 07e0 3B       		.byte	59
+ 2046 07e1 28       		.byte	40
+ 2047 07e2 3D       		.byte	61
+ 2048 07e3 02       		.byte	2
+ 2049 07e4 3E       		.byte	62
+ 2050 07e5 14       		.byte	20
+ 2051 07e6 41       		.byte	65
+ 2052 07e7 01       		.byte	1
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 37
+
+
+ 2053 07e8 49       		.byte	73
+ 2054 07e9 05       		.byte	5
+ 2055 07ea 4B       		.byte	75
+ 2056 07eb 40       		.byte	64
+ 2057 07ec 51       		.byte	81
+ 2058 07ed 01       		.byte	1
+ 2059 07ee 52       		.byte	82
+ 2060 07ef 01       		.byte	1
+ 2061 07f0 59       		.byte	89
+ 2062 07f1 05       		.byte	5
+ 2063 07f2 5A       		.byte	90
+ 2064 07f3 40       		.byte	64
+ 2065 07f4 5E       		.byte	94
+ 2066 07f5 20       		.byte	32
+ 2067 07f6 6E       		.byte	110
+ 2068 07f7 14       		.byte	20
+ 2069 07f8 6F       		.byte	111
+ 2070 07f9 01       		.byte	1
+ 2071 07fa 74       		.byte	116
+ 2072 07fb A0       		.byte	-96
+ 2073 07fc 77       		.byte	119
+ 2074 07fd 20       		.byte	32
+ 2075 07fe 80       		.byte	-128
+ 2076 07ff 21       		.byte	33
+ 2077 0800 83       		.byte	-125
+ 2078 0801 10       		.byte	16
+ 2079 0802 86       		.byte	-122
+ 2080 0803 10       		.byte	16
+ 2081 0804 87       		.byte	-121
+ 2082 0805 22       		.byte	34
+ 2083 0806 88       		.byte	-120
+ 2084 0807 01       		.byte	1
+ 2085 0808 89       		.byte	-119
+ 2086 0809 08       		.byte	8
+ 2087 080a 8B       		.byte	-117
+ 2088 080b 14       		.byte	20
+ 2089 080c 8C       		.byte	-116
+ 2090 080d 08       		.byte	8
+ 2091 080e 8D       		.byte	-115
+ 2092 080f 80       		.byte	-128
+ 2093 0810 8F       		.byte	-113
+ 2094 0811 40       		.byte	64
+ 2095 0812 90       		.byte	-112
+ 2096 0813 10       		.byte	16
+ 2097 0814 93       		.byte	-109
+ 2098 0815 40       		.byte	64
+ 2099 0816 94       		.byte	-108
+ 2100 0817 08       		.byte	8
+ 2101 0818 95       		.byte	-107
+ 2102 0819 02       		.byte	2
+ 2103 081a 96       		.byte	-106
+ 2104 081b 01       		.byte	1
+ 2105 081c 98       		.byte	-104
+ 2106 081d 05       		.byte	5
+ 2107 081e 9B       		.byte	-101
+ 2108 081f 14       		.byte	20
+ 2109 0820 9C       		.byte	-100
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 38
+
+
+ 2110 0821 40       		.byte	64
+ 2111 0822 9D       		.byte	-99
+ 2112 0823 88       		.byte	-120
+ 2113 0824 9E       		.byte	-98
+ 2114 0825 11       		.byte	17
+ 2115 0826 9F       		.byte	-97
+ 2116 0827 20       		.byte	32
+ 2117 0828 A4       		.byte	-92
+ 2118 0829 E9       		.byte	-23
+ 2119 082a A5       		.byte	-91
+ 2120 082b 24       		.byte	36
+ 2121 082c A6       		.byte	-90
+ 2122 082d 06       		.byte	6
+ 2123 082e AC       		.byte	-84
+ 2124 082f 04       		.byte	4
+ 2125 0830 AE       		.byte	-82
+ 2126 0831 08       		.byte	8
+ 2127 0832 AF       		.byte	-81
+ 2128 0833 10       		.byte	16
+ 2129 0834 C0       		.byte	-64
+ 2130 0835 71       		.byte	113
+ 2131 0836 C2       		.byte	-62
+ 2132 0837 F8       		.byte	-8
+ 2133 0838 C4       		.byte	-60
+ 2134 0839 70       		.byte	112
+ 2135 083a CA       		.byte	-54
+ 2136 083b 25       		.byte	37
+ 2137 083c CC       		.byte	-52
+ 2138 083d C7       		.byte	-57
+ 2139 083e CE       		.byte	-50
+ 2140 083f E6       		.byte	-26
+ 2141 0840 D0       		.byte	-48
+ 2142 0841 01       		.byte	1
+ 2143 0842 D2       		.byte	-46
+ 2144 0843 08       		.byte	8
+ 2145 0844 D6       		.byte	-42
+ 2146 0845 2B       		.byte	43
+ 2147 0846 E0       		.byte	-32
+ 2148 0847 A0       		.byte	-96
+ 2149 0848 E4       		.byte	-28
+ 2150 0849 C0       		.byte	-64
+ 2151 084a EA       		.byte	-22
+ 2152 084b 01       		.byte	1
+ 2153 084c EC       		.byte	-20
+ 2154 084d 30       		.byte	48
+ 2155 084e 11       		.byte	17
+ 2156 084f 02       		.byte	2
+ 2157 0850 16       		.byte	22
+ 2158 0851 80       		.byte	-128
+ 2159 0852 32       		.byte	50
+ 2160 0853 10       		.byte	16
+ 2161 0854 33       		.byte	51
+ 2162 0855 02       		.byte	2
+ 2163 0856 34       		.byte	52
+ 2164 0857 02       		.byte	2
+ 2165 0858 36       		.byte	54
+ 2166 0859 80       		.byte	-128
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 39
+
+
+ 2167 085a 3A       		.byte	58
+ 2168 085b 20       		.byte	32
+ 2169 085c 3B       		.byte	59
+ 2170 085d 02       		.byte	2
+ 2171 085e 3E       		.byte	62
+ 2172 085f 80       		.byte	-128
+ 2173 0860 86       		.byte	-122
+ 2174 0861 20       		.byte	32
+ 2175 0862 88       		.byte	-120
+ 2176 0863 02       		.byte	2
+ 2177 0864 8C       		.byte	-116
+ 2178 0865 08       		.byte	8
+ 2179 0866 C4       		.byte	-60
+ 2180 0867 30       		.byte	48
+ 2181 0868 CC       		.byte	-52
+ 2182 0869 F0       		.byte	-16
+ 2183 086a CE       		.byte	-50
+ 2184 086b 70       		.byte	112
+ 2185 086c E2       		.byte	-30
+ 2186 086d 10       		.byte	16
+ 2187 086e 30       		.byte	48
+ 2188 086f 20       		.byte	32
+ 2189 0870 34       		.byte	52
+ 2190 0871 40       		.byte	64
+ 2191 0872 56       		.byte	86
+ 2192 0873 02       		.byte	2
+ 2193 0874 96       		.byte	-106
+ 2194 0875 20       		.byte	32
+ 2195 0876 97       		.byte	-105
+ 2196 0877 02       		.byte	2
+ 2197 0878 98       		.byte	-104
+ 2198 0879 08       		.byte	8
+ 2199 087a A1       		.byte	-95
+ 2200 087b 01       		.byte	1
+ 2201 087c A6       		.byte	-90
+ 2202 087d 80       		.byte	-128
+ 2203 087e AB       		.byte	-85
+ 2204 087f 02       		.byte	2
+ 2205 0880 CC       		.byte	-52
+ 2206 0881 30       		.byte	48
+ 2207 0882 D6       		.byte	-42
+ 2208 0883 20       		.byte	32
+ 2209 0884 EA       		.byte	-22
+ 2210 0885 20       		.byte	32
+ 2211 0886 12       		.byte	18
+ 2212 0887 80       		.byte	-128
+ 2213 0888 3E       		.byte	62
+ 2214 0889 10       		.byte	16
+ 2215 088a 58       		.byte	88
+ 2216 088b 08       		.byte	8
+ 2217 088c 96       		.byte	-106
+ 2218 088d 20       		.byte	32
+ 2219 088e 97       		.byte	-105
+ 2220 088f 02       		.byte	2
+ 2221 0890 98       		.byte	-104
+ 2222 0891 08       		.byte	8
+ 2223 0892 9C       		.byte	-100
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 40
+
+
+ 2224 0893 40       		.byte	64
+ 2225 0894 9E       		.byte	-98
+ 2226 0895 02       		.byte	2
+ 2227 0896 A1       		.byte	-95
+ 2228 0897 01       		.byte	1
+ 2229 0898 A4       		.byte	-92
+ 2230 0899 20       		.byte	32
+ 2231 089a A6       		.byte	-90
+ 2232 089b 80       		.byte	-128
+ 2233 089c C4       		.byte	-60
+ 2234 089d 10       		.byte	16
+ 2235 089e CE       		.byte	-50
+ 2236 089f 20       		.byte	32
+ 2237 08a0 D6       		.byte	-42
+ 2238 08a1 40       		.byte	64
+ 2239 08a2 80       		.byte	-128
+ 2240 08a3 20       		.byte	32
+ 2241 08a4 8E       		.byte	-114
+ 2242 08a5 02       		.byte	2
+ 2243 08a6 96       		.byte	-106
+ 2244 08a7 30       		.byte	48
+ 2245 08a8 9C       		.byte	-100
+ 2246 08a9 40       		.byte	64
+ 2247 08aa 9E       		.byte	-98
+ 2248 08ab 02       		.byte	2
+ 2249 08ac A1       		.byte	-95
+ 2250 08ad 01       		.byte	1
+ 2251 08ae A4       		.byte	-92
+ 2252 08af 20       		.byte	32
+ 2253 08b0 AB       		.byte	-85
+ 2254 08b1 01       		.byte	1
+ 2255 08b2 E2       		.byte	-30
+ 2256 08b3 80       		.byte	-128
+ 2257 08b4 EE       		.byte	-18
+ 2258 08b5 20       		.byte	32
+ 2259 08b6 10       		.byte	16
+ 2260 08b7 10       		.byte	16
+ 2261 08b8 14       		.byte	20
+ 2262 08b9 20       		.byte	32
+ 2263 08ba 76       		.byte	118
+ 2264 08bb 40       		.byte	64
+ 2265 08bc 7F       		.byte	127
+ 2266 08bd 80       		.byte	-128
+ 2267 08be 87       		.byte	-121
+ 2268 08bf 10       		.byte	16
+ 2269 08c0 8B       		.byte	-117
+ 2270 08c1 10       		.byte	16
+ 2271 08c2 8F       		.byte	-113
+ 2272 08c3 80       		.byte	-128
+ 2273 08c4 C4       		.byte	-60
+ 2274 08c5 0C       		.byte	12
+ 2275 08c6 DE       		.byte	-34
+ 2276 08c7 05       		.byte	5
+ 2277 08c8 E0       		.byte	-32
+ 2278 08c9 02       		.byte	2
+ 2279 08ca E2       		.byte	-30
+ 2280 08cb 04       		.byte	4
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 41
+
+
+ 2281 08cc 97       		.byte	-105
+ 2282 08cd 30       		.byte	48
+ 2283 08ce 98       		.byte	-104
+ 2284 08cf 30       		.byte	48
+ 2285 08d0 9E       		.byte	-98
+ 2286 08d1 40       		.byte	64
+ 2287 08d2 1B       		.byte	27
+ 2288 08d3 04       		.byte	4
+ 2289 08d4 24       		.byte	36
+ 2290 08d5 40       		.byte	64
+ 2291 08d6 45       		.byte	69
+ 2292 08d7 08       		.byte	8
+ 2293 08d8 97       		.byte	-105
+ 2294 08d9 30       		.byte	48
+ 2295 08da 98       		.byte	-104
+ 2296 08db 30       		.byte	48
+ 2297 08dc 9E       		.byte	-98
+ 2298 08dd 40       		.byte	64
+ 2299 08de C6       		.byte	-58
+ 2300 08df 08       		.byte	8
+ 2301 08e0 C8       		.byte	-56
+ 2302 08e1 01       		.byte	1
+ 2303 08e2 D0       		.byte	-48
+ 2304 08e3 01       		.byte	1
+ 2305 08e4 0B       		.byte	11
+ 2306 08e5 21       		.byte	33
+ 2307 08e6 0F       		.byte	15
+ 2308 08e7 10       		.byte	16
+ 2309 08e8 44       		.byte	68
+ 2310 08e9 01       		.byte	1
+ 2311 08ea 83       		.byte	-125
+ 2312 08eb 01       		.byte	1
+ 2313 08ec 97       		.byte	-105
+ 2314 08ed 30       		.byte	48
+ 2315 08ee 98       		.byte	-104
+ 2316 08ef 30       		.byte	48
+ 2317 08f0 9E       		.byte	-98
+ 2318 08f1 40       		.byte	64
+ 2319 08f2 A5       		.byte	-91
+ 2320 08f3 08       		.byte	8
+ 2321 08f4 AB       		.byte	-85
+ 2322 08f5 04       		.byte	4
+ 2323 08f6 B4       		.byte	-76
+ 2324 08f7 40       		.byte	64
+ 2325 08f8 C2       		.byte	-62
+ 2326 08f9 0E       		.byte	14
+ 2327 08fa D0       		.byte	-48
+ 2328 08fb 04       		.byte	4
+ 2329 08fc EA       		.byte	-22
+ 2330 08fd 02       		.byte	2
+ 2331 08fe 20       		.byte	32
+ 2332 08ff 80       		.byte	-128
+ 2333 0900 25       		.byte	37
+ 2334 0901 10       		.byte	16
+ 2335 0902 82       		.byte	-126
+ 2336 0903 10       		.byte	16
+ 2337 0904 96       		.byte	-106
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 42
+
+
+ 2338 0905 30       		.byte	48
+ 2339 0906 9C       		.byte	-100
+ 2340 0907 40       		.byte	64
+ 2341 0908 A9       		.byte	-87
+ 2342 0909 01       		.byte	1
+ 2343 090a C8       		.byte	-56
+ 2344 090b 60       		.byte	96
+ 2345 090c E6       		.byte	-26
+ 2346 090d 20       		.byte	32
+ 2347 090e EC       		.byte	-20
+ 2348 090f 80       		.byte	-128
+ 2349 0910 84       		.byte	-124
+ 2350 0911 40       		.byte	64
+ 2351 0912 9C       		.byte	-100
+ 2352 0913 40       		.byte	64
+ 2353 0914 AA       		.byte	-86
+ 2354 0915 10       		.byte	16
+ 2355 0916 B0       		.byte	-80
+ 2356 0917 40       		.byte	64
+ 2357 0918 B5       		.byte	-75
+ 2358 0919 10       		.byte	16
+ 2359 091a E6       		.byte	-26
+ 2360 091b 10       		.byte	16
+ 2361 091c EA       		.byte	-22
+ 2362 091d 80       		.byte	-128
+ 2363 091e 10       		.byte	16
+ 2364 091f 40       		.byte	64
+ 2365 0920 13       		.byte	19
+ 2366 0921 20       		.byte	32
+ 2367 0922 16       		.byte	22
+ 2368 0923 80       		.byte	-128
+ 2369 0924 78       		.byte	120
+ 2370 0925 10       		.byte	16
+ 2371 0926 7C       		.byte	124
+ 2372 0927 20       		.byte	32
+ 2373 0928 98       		.byte	-104
+ 2374 0929 30       		.byte	48
+ 2375 092a 9C       		.byte	-100
+ 2376 092b 01       		.byte	1
+ 2377 092c 9E       		.byte	-98
+ 2378 092d 40       		.byte	64
+ 2379 092e A5       		.byte	-91
+ 2380 092f 08       		.byte	8
+ 2381 0930 C4       		.byte	-60
+ 2382 0931 0E       		.byte	14
+ 2383 0932 DE       		.byte	-34
+ 2384 0933 03       		.byte	3
+ 2385 0934 10       		.byte	16
+ 2386 0935 20       		.byte	32
+ 2387 0936 76       		.byte	118
+ 2388 0937 80       		.byte	-128
+ 2389 0938 78       		.byte	120
+ 2390 0939 40       		.byte	64
+ 2391 093a 8A       		.byte	-118
+ 2392 093b 40       		.byte	64
+ 2393 093c 8C       		.byte	-116
+ 2394 093d 20       		.byte	32
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 43
+
+
+ 2395 093e 98       		.byte	-104
+ 2396 093f 40       		.byte	64
+ 2397 0940 9A       		.byte	-102
+ 2398 0941 80       		.byte	-128
+ 2399 0942 9E       		.byte	-98
+ 2400 0943 40       		.byte	64
+ 2401 0944 AB       		.byte	-85
+ 2402 0945 20       		.byte	32
+ 2403 0946 B0       		.byte	-80
+ 2404 0947 01       		.byte	1
+ 2405 0948 B5       		.byte	-75
+ 2406 0949 08       		.byte	8
+ 2407 094a C4       		.byte	-60
+ 2408 094b 08       		.byte	8
+ 2409 094c DC       		.byte	-36
+ 2410 094d 01       		.byte	1
+ 2411 094e DE       		.byte	-34
+ 2412 094f 04       		.byte	4
+ 2413 0950 E4       		.byte	-28
+ 2414 0951 01       		.byte	1
+ 2415 0952 E6       		.byte	-26
+ 2416 0953 08       		.byte	8
+ 2417 0954 EC       		.byte	-20
+ 2418 0955 0C       		.byte	12
+ 2419 0956 00       		.byte	0
+ 2420 0957 06       		.byte	6
+ 2421 0958 01       		.byte	1
+ 2422 0959 01       		.byte	1
+ 2423 095a 0A       		.byte	10
+ 2424 095b 02       		.byte	2
+ 2425 095c 0C       		.byte	12
+ 2426 095d 06       		.byte	6
+ 2427 095e 0D       		.byte	13
+ 2428 095f 01       		.byte	1
+ 2429 0960 0E       		.byte	14
+ 2430 0961 02       		.byte	2
+ 2431 0962 10       		.byte	16
+ 2432 0963 06       		.byte	6
+ 2433 0964 11       		.byte	17
+ 2434 0965 01       		.byte	1
+ 2435 0966 1A       		.byte	26
+ 2436 0967 06       		.byte	6
+ 2437 0968 1C       		.byte	28
+ 2438 0969 06       		.byte	6
+ 2439 096a 1D       		.byte	29
+ 2440 096b 01       		.byte	1
+ 2441 096c 00       		.byte	0
+ 2442 096d BF       		.byte	-65
+ 2443 096e 01       		.byte	1
+ 2444 096f 3A       		.byte	58
+ 2445 0970 03       		.byte	3
+ 2446 0971 C0       		.byte	-64
+ 2447 0972 10       		.byte	16
+ 2448 0973 0A       		.byte	10
+ 2449 0974 A0       		.byte	-96
+ 2450 0975 30       		.byte	48
+ 2451 0976 00       		.byte	0
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 44
+
+
+ 2452 0977 00       		.byte	0
+ 2453 0978 40       		.byte	64
+ 2454 0979 00       		.byte	0
+ 2455 097a 00       		.byte	0
+ 2456 097b 00       		.byte	0
+ 2457 097c 52       		.byte	82
+ 2458 097d 00       		.byte	0
+ 2459 097e 00       		.byte	0
+ 2460 097f 12       		.byte	18
+ 2461 0980 00       		.byte	0
+ 2462 0981 00       		.byte	0
+ 2463 0982 00       		.byte	0
+ 2464 0983 04       		.byte	4
+ 2465 0984 C4       		.byte	-60
+ 2466 0985 00       		.byte	0
+ 2467 0986 00       		.byte	0
+ 2468 0987 00       		.byte	0
+ 2469 0988 80       		.byte	-128
+ 2470 0989 00       		.byte	0
+ 2471 098a 40       		.byte	64
+ 2472 098b 80       		.byte	-128
+ 2473 098c B0       		.byte	-80
+ 2474 098d 00       		.byte	0
+ 2475 098e B0       		.byte	-80
+ 2476 098f 00       		.byte	0
+ 2477 0990 00       		.byte	0
+ 2478 0991 00       		.byte	0
+ 2479 0992 00       		.byte	0
+ 2480 0993 00       		.byte	0
+ 2481 0994 40       		.byte	64
+ 2482 0995 00       		.byte	0
+ 2483 0996 00       		.byte	0
+ 2484 0997 30       		.byte	48
+ 2485 0998 30       		.byte	48
+ 2486 0999 00       		.byte	0
+ 2487 099a 00       		.byte	0
+ 2488 099b 00       		.byte	0
+ 2489 099c C0       		.byte	-64
+ 2490 099d 00       		.byte	0
+ 2491 099e 00       		.byte	0
+ 2492 099f 00       		.byte	0
+ 2493 09a0 30       		.byte	48
+ 2494 09a1 00       		.byte	0
+ 2495 09a2 00       		.byte	0
+ 2496 09a3 3F       		.byte	63
+ 2497 09a4 3F       		.byte	63
+ 2498 09a5 00       		.byte	0
+ 2499 09a6 00       		.byte	0
+ 2500 09a7 00       		.byte	0
+ 2501 09a8 00       		.byte	0
+ 2502 09a9 00       		.byte	0
+ 2503 09aa 00       		.byte	0
+ 2504 09ab 00       		.byte	0
+ 2505 09ac 00       		.byte	0
+ 2506 09ad 1F       		.byte	31
+ 2507 09ae 1F       		.byte	31
+ 2508 09af 00       		.byte	0
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 45
+
+
+ 2509 09b0 00       		.byte	0
+ 2510 09b1 00       		.byte	0
+ 2511 09b2 00       		.byte	0
+ 2512 09b3 00       		.byte	0
+ 2513 09b4 08       		.byte	8
+ 2514 09b5 00       		.byte	0
+ 2515 09b6 00       		.byte	0
+ 2516 09b7 00       		.byte	0
+ 2517 09b8 00       		.byte	0
+ 2518 09b9 00       		.byte	0
+ 2519 09ba 00       		.byte	0
+ 2520 09bb 00       		.byte	0
+ 2521 09bc 3F       		.byte	63
+ 2522 09bd 00       		.byte	0
+ 2523 09be 00       		.byte	0
+ 2524 09bf 00       		.byte	0
+ 2525 09c0 00       		.byte	0
+ 2526 09c1 00       		.byte	0
+ 2527 09c2 00       		.byte	0
+ 2528 09c3 00       		.byte	0
+ 2529 09c4 00       		.byte	0
+ 2530 09c5 00       		.byte	0
+ 2531 09c6 04       		.byte	4
+ 2532 09c7 00       		.byte	0
+ 2533 09c8 00       		.byte	0
+ 2534 09c9 30       		.byte	48
+ 2535 09ca 30       		.byte	48
+ 2536 09cb 00       		.byte	0
+ 2537 09cc 00       		.byte	0
+ 2538 09cd 00       		.byte	0
+ 2539 09ce 00       		.byte	0
+ 2540 09cf 00       		.byte	0
+ 2541 09d0 08       		.byte	8
+ 2542 09d1 00       		.byte	0
+ 2543 09d2 00       		.byte	0
+ 2544 09d3 0F       		.byte	15
+ 2545 09d4 07       		.byte	7
+ 2546 09d5 00       		.byte	0
+ 2547 09d6 00       		.byte	0
+ 2548 09d7 00       		.byte	0
+ 2549 09d8 00       		.byte	0
+ 2550 09d9 00       		.byte	0
+ 2551 09da 00       		.byte	0
+ 2552 09db 00       		.byte	0
+ 2553 09dc 08       		.byte	8
+ 2554 09dd 00       		.byte	0
+ 2555 09de 18       		.byte	24
+ 2556 09df 01       		.byte	1
+ 2557 09e0 00       		.byte	0
+ 2558 09e1 01       		.byte	1
+ 2559 09e2 00       		.byte	0
+ 2560 09e3 00       		.byte	0
+ 2561              		.section	.cywolatch,"a",%progbits
+ 2562              		.align	2
+ 2563              		.type	cy_meta_wonvl, %object
+ 2564              		.size	cy_meta_wonvl, 4
+ 2565              	cy_meta_wonvl:
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 46
+
+
+ 2566 0000 BC       		.byte	-68
+ 2567 0001 90       		.byte	-112
+ 2568 0002 AC       		.byte	-84
+ 2569 0003 AF       		.byte	-81
+ 2570              		.section	.cycustnvl,"a",%progbits
+ 2571              		.align	2
+ 2572              		.type	cy_meta_custnvl, %object
+ 2573              		.size	cy_meta_custnvl, 4
+ 2574              	cy_meta_custnvl:
+ 2575 0000 00       		.byte	0
+ 2576 0001 00       		.byte	0
+ 2577 0002 40       		.byte	64
+ 2578 0003 05       		.byte	5
+ 2579              		.section	.cymeta,"a",%progbits
+ 2580              		.align	2
+ 2581              		.type	cy_metadata, %object
+ 2582              		.size	cy_metadata, 12
+ 2583              	cy_metadata:
+ 2584 0000 00       		.byte	0
+ 2585 0001 01       		.byte	1
+ 2586 0002 2E       		.byte	46
+ 2587 0003 16       		.byte	22
+ 2588 0004 00       		.byte	0
+ 2589 0005 69       		.byte	105
+ 2590 0006 00       		.byte	0
+ 2591 0007 01       		.byte	1
+ 2592 0008 00       		.byte	0
+ 2593 0009 00       		.byte	0
+ 2594 000a 00       		.byte	0
+ 2595 000b 00       		.byte	0
+ 2596              		.section	.cyflashprotect,"a",%progbits
+ 2597              		.align	2
+ 2598              		.type	cy_meta_flashprotect, %object
+ 2599              		.size	cy_meta_flashprotect, 256
+ 2600              	cy_meta_flashprotect:
+ 2601 0000 00000000 		.space	256
+ 2601      00000000 
+ 2601      00000000 
+ 2601      00000000 
+ 2601      00000000 
+ 2602              		.text
+ 2603              	.Letext0:
+ 2604              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.3\\psoc creator\\import\\gnu\\arm\\5.4.
+ 2605              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.3\\psoc creator\\import\\gnu\\arm\\5.4.
+ 2606              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 2607              		.section	.debug_info,"",%progbits
+ 2608              	.Ldebug_info0:
+ 2609 0000 35010000 		.4byte	0x135
+ 2610 0004 0400     		.2byte	0x4
+ 2611 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 2612 000a 04       		.byte	0x4
+ 2613 000b 01       		.uleb128 0x1
+ 2614 000c 24000000 		.4byte	.LASF17
+ 2615 0010 0C       		.byte	0xc
+ 2616 0011 0F020000 		.4byte	.LASF18
+ 2617 0015 69010000 		.4byte	.LASF19
+ 2618 0019 00000000 		.4byte	.Ldebug_line0
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 47
+
+
+ 2619 001d 02       		.uleb128 0x2
+ 2620 001e 01       		.byte	0x1
+ 2621 001f 06       		.byte	0x6
+ 2622 0020 03020000 		.4byte	.LASF0
+ 2623 0024 03       		.uleb128 0x3
+ 2624 0025 00000000 		.4byte	.LASF9
+ 2625 0029 01       		.byte	0x1
+ 2626 002a 1D       		.byte	0x1d
+ 2627 002b 2F000000 		.4byte	0x2f
+ 2628 002f 02       		.uleb128 0x2
+ 2629 0030 01       		.byte	0x1
+ 2630 0031 08       		.byte	0x8
+ 2631 0032 16000000 		.4byte	.LASF1
+ 2632 0036 02       		.uleb128 0x2
+ 2633 0037 02       		.byte	0x2
+ 2634 0038 05       		.byte	0x5
+ 2635 0039 5F010000 		.4byte	.LASF2
+ 2636 003d 02       		.uleb128 0x2
+ 2637 003e 02       		.byte	0x2
+ 2638 003f 07       		.byte	0x7
+ 2639 0040 C4000000 		.4byte	.LASF3
+ 2640 0044 02       		.uleb128 0x2
+ 2641 0045 04       		.byte	0x4
+ 2642 0046 05       		.byte	0x5
+ 2643 0047 FA010000 		.4byte	.LASF4
+ 2644 004b 02       		.uleb128 0x2
+ 2645 004c 04       		.byte	0x4
+ 2646 004d 07       		.byte	0x7
+ 2647 004e B2000000 		.4byte	.LASF5
+ 2648 0052 02       		.uleb128 0x2
+ 2649 0053 08       		.byte	0x8
+ 2650 0054 05       		.byte	0x5
+ 2651 0055 51010000 		.4byte	.LASF6
+ 2652 0059 02       		.uleb128 0x2
+ 2653 005a 08       		.byte	0x8
+ 2654 005b 07       		.byte	0x7
+ 2655 005c 06010000 		.4byte	.LASF7
+ 2656 0060 04       		.uleb128 0x4
+ 2657 0061 04       		.byte	0x4
+ 2658 0062 05       		.byte	0x5
+ 2659 0063 696E7400 		.ascii	"int\000"
+ 2660 0067 02       		.uleb128 0x2
+ 2661 0068 04       		.byte	0x4
+ 2662 0069 07       		.byte	0x7
+ 2663 006a F9000000 		.4byte	.LASF8
+ 2664 006e 03       		.uleb128 0x3
+ 2665 006f 1D010000 		.4byte	.LASF10
+ 2666 0073 02       		.byte	0x2
+ 2667 0074 18       		.byte	0x18
+ 2668 0075 24000000 		.4byte	0x24
+ 2669 0079 05       		.uleb128 0x5
+ 2670 007a 91000000 		.4byte	0x91
+ 2671 007e 8A000000 		.4byte	0x8a
+ 2672 0082 06       		.uleb128 0x6
+ 2673 0083 8A000000 		.4byte	0x8a
+ 2674 0087 E309     		.2byte	0x9e3
+ 2675 0089 00       		.byte	0
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 48
+
+
+ 2676 008a 02       		.uleb128 0x2
+ 2677 008b 04       		.byte	0x4
+ 2678 008c 07       		.byte	0x7
+ 2679 008d 48010000 		.4byte	.LASF11
+ 2680 0091 07       		.uleb128 0x7
+ 2681 0092 6E000000 		.4byte	0x6e
+ 2682 0096 08       		.uleb128 0x8
+ 2683 0097 E7000000 		.4byte	.LASF12
+ 2684 009b 03       		.byte	0x3
+ 2685 009c 1F       		.byte	0x1f
+ 2686 009d A7000000 		.4byte	0xa7
+ 2687 00a1 05       		.uleb128 0x5
+ 2688 00a2 03       		.byte	0x3
+ 2689 00a3 00000000 		.4byte	cy_meta_configecc
+ 2690 00a7 07       		.uleb128 0x7
+ 2691 00a8 79000000 		.4byte	0x79
+ 2692 00ac 05       		.uleb128 0x5
+ 2693 00ad 91000000 		.4byte	0x91
+ 2694 00b1 BC000000 		.4byte	0xbc
+ 2695 00b5 09       		.uleb128 0x9
+ 2696 00b6 8A000000 		.4byte	0x8a
+ 2697 00ba 03       		.byte	0x3
+ 2698 00bb 00       		.byte	0
+ 2699 00bc 0A       		.uleb128 0xa
+ 2700 00bd D7000000 		.4byte	.LASF13
+ 2701 00c1 03       		.byte	0x3
+ 2702 00c2 6901     		.2byte	0x169
+ 2703 00c4 CE000000 		.4byte	0xce
+ 2704 00c8 05       		.uleb128 0x5
+ 2705 00c9 03       		.byte	0x3
+ 2706 00ca 00000000 		.4byte	cy_meta_custnvl
+ 2707 00ce 07       		.uleb128 0x7
+ 2708 00cf AC000000 		.4byte	0xac
+ 2709 00d3 0A       		.uleb128 0xa
+ 2710 00d4 3A010000 		.4byte	.LASF14
+ 2711 00d8 03       		.byte	0x3
+ 2712 00d9 7701     		.2byte	0x177
+ 2713 00db E5000000 		.4byte	0xe5
+ 2714 00df 05       		.uleb128 0x5
+ 2715 00e0 03       		.byte	0x3
+ 2716 00e1 00000000 		.4byte	cy_meta_wonvl
+ 2717 00e5 07       		.uleb128 0x7
+ 2718 00e6 AC000000 		.4byte	0xac
+ 2719 00ea 05       		.uleb128 0x5
+ 2720 00eb 91000000 		.4byte	0x91
+ 2721 00ef FA000000 		.4byte	0xfa
+ 2722 00f3 09       		.uleb128 0x9
+ 2723 00f4 8A000000 		.4byte	0x8a
+ 2724 00f8 FF       		.byte	0xff
+ 2725 00f9 00       		.byte	0
+ 2726 00fa 0A       		.uleb128 0xa
+ 2727 00fb 25010000 		.4byte	.LASF15
+ 2728 00ff 03       		.byte	0x3
+ 2729 0100 8501     		.2byte	0x185
+ 2730 0102 0C010000 		.4byte	0x10c
+ 2731 0106 05       		.uleb128 0x5
+ 2732 0107 03       		.byte	0x3
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 49
+
+
+ 2733 0108 00000000 		.4byte	cy_meta_flashprotect
+ 2734 010c 07       		.uleb128 0x7
+ 2735 010d EA000000 		.4byte	0xea
+ 2736 0111 05       		.uleb128 0x5
+ 2737 0112 91000000 		.4byte	0x91
+ 2738 0116 21010000 		.4byte	0x121
+ 2739 011a 09       		.uleb128 0x9
+ 2740 011b 8A000000 		.4byte	0x8a
+ 2741 011f 0B       		.byte	0xb
+ 2742 0120 00       		.byte	0
+ 2743 0121 0A       		.uleb128 0xa
+ 2744 0122 0A000000 		.4byte	.LASF16
+ 2745 0126 03       		.byte	0x3
+ 2746 0127 B201     		.2byte	0x1b2
+ 2747 0129 33010000 		.4byte	0x133
+ 2748 012d 05       		.uleb128 0x5
+ 2749 012e 03       		.byte	0x3
+ 2750 012f 00000000 		.4byte	cy_metadata
+ 2751 0133 07       		.uleb128 0x7
+ 2752 0134 11010000 		.4byte	0x111
+ 2753 0138 00       		.byte	0
+ 2754              		.section	.debug_abbrev,"",%progbits
+ 2755              	.Ldebug_abbrev0:
+ 2756 0000 01       		.uleb128 0x1
+ 2757 0001 11       		.uleb128 0x11
+ 2758 0002 01       		.byte	0x1
+ 2759 0003 25       		.uleb128 0x25
+ 2760 0004 0E       		.uleb128 0xe
+ 2761 0005 13       		.uleb128 0x13
+ 2762 0006 0B       		.uleb128 0xb
+ 2763 0007 03       		.uleb128 0x3
+ 2764 0008 0E       		.uleb128 0xe
+ 2765 0009 1B       		.uleb128 0x1b
+ 2766 000a 0E       		.uleb128 0xe
+ 2767 000b 10       		.uleb128 0x10
+ 2768 000c 17       		.uleb128 0x17
+ 2769 000d 00       		.byte	0
+ 2770 000e 00       		.byte	0
+ 2771 000f 02       		.uleb128 0x2
+ 2772 0010 24       		.uleb128 0x24
+ 2773 0011 00       		.byte	0
+ 2774 0012 0B       		.uleb128 0xb
+ 2775 0013 0B       		.uleb128 0xb
+ 2776 0014 3E       		.uleb128 0x3e
+ 2777 0015 0B       		.uleb128 0xb
+ 2778 0016 03       		.uleb128 0x3
+ 2779 0017 0E       		.uleb128 0xe
+ 2780 0018 00       		.byte	0
+ 2781 0019 00       		.byte	0
+ 2782 001a 03       		.uleb128 0x3
+ 2783 001b 16       		.uleb128 0x16
+ 2784 001c 00       		.byte	0
+ 2785 001d 03       		.uleb128 0x3
+ 2786 001e 0E       		.uleb128 0xe
+ 2787 001f 3A       		.uleb128 0x3a
+ 2788 0020 0B       		.uleb128 0xb
+ 2789 0021 3B       		.uleb128 0x3b
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 50
+
+
+ 2790 0022 0B       		.uleb128 0xb
+ 2791 0023 49       		.uleb128 0x49
+ 2792 0024 13       		.uleb128 0x13
+ 2793 0025 00       		.byte	0
+ 2794 0026 00       		.byte	0
+ 2795 0027 04       		.uleb128 0x4
+ 2796 0028 24       		.uleb128 0x24
+ 2797 0029 00       		.byte	0
+ 2798 002a 0B       		.uleb128 0xb
+ 2799 002b 0B       		.uleb128 0xb
+ 2800 002c 3E       		.uleb128 0x3e
+ 2801 002d 0B       		.uleb128 0xb
+ 2802 002e 03       		.uleb128 0x3
+ 2803 002f 08       		.uleb128 0x8
+ 2804 0030 00       		.byte	0
+ 2805 0031 00       		.byte	0
+ 2806 0032 05       		.uleb128 0x5
+ 2807 0033 01       		.uleb128 0x1
+ 2808 0034 01       		.byte	0x1
+ 2809 0035 49       		.uleb128 0x49
+ 2810 0036 13       		.uleb128 0x13
+ 2811 0037 01       		.uleb128 0x1
+ 2812 0038 13       		.uleb128 0x13
+ 2813 0039 00       		.byte	0
+ 2814 003a 00       		.byte	0
+ 2815 003b 06       		.uleb128 0x6
+ 2816 003c 21       		.uleb128 0x21
+ 2817 003d 00       		.byte	0
+ 2818 003e 49       		.uleb128 0x49
+ 2819 003f 13       		.uleb128 0x13
+ 2820 0040 2F       		.uleb128 0x2f
+ 2821 0041 05       		.uleb128 0x5
+ 2822 0042 00       		.byte	0
+ 2823 0043 00       		.byte	0
+ 2824 0044 07       		.uleb128 0x7
+ 2825 0045 26       		.uleb128 0x26
+ 2826 0046 00       		.byte	0
+ 2827 0047 49       		.uleb128 0x49
+ 2828 0048 13       		.uleb128 0x13
+ 2829 0049 00       		.byte	0
+ 2830 004a 00       		.byte	0
+ 2831 004b 08       		.uleb128 0x8
+ 2832 004c 34       		.uleb128 0x34
+ 2833 004d 00       		.byte	0
+ 2834 004e 03       		.uleb128 0x3
+ 2835 004f 0E       		.uleb128 0xe
+ 2836 0050 3A       		.uleb128 0x3a
+ 2837 0051 0B       		.uleb128 0xb
+ 2838 0052 3B       		.uleb128 0x3b
+ 2839 0053 0B       		.uleb128 0xb
+ 2840 0054 49       		.uleb128 0x49
+ 2841 0055 13       		.uleb128 0x13
+ 2842 0056 3F       		.uleb128 0x3f
+ 2843 0057 19       		.uleb128 0x19
+ 2844 0058 02       		.uleb128 0x2
+ 2845 0059 18       		.uleb128 0x18
+ 2846 005a 00       		.byte	0
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 51
+
+
+ 2847 005b 00       		.byte	0
+ 2848 005c 09       		.uleb128 0x9
+ 2849 005d 21       		.uleb128 0x21
+ 2850 005e 00       		.byte	0
+ 2851 005f 49       		.uleb128 0x49
+ 2852 0060 13       		.uleb128 0x13
+ 2853 0061 2F       		.uleb128 0x2f
+ 2854 0062 0B       		.uleb128 0xb
+ 2855 0063 00       		.byte	0
+ 2856 0064 00       		.byte	0
+ 2857 0065 0A       		.uleb128 0xa
+ 2858 0066 34       		.uleb128 0x34
+ 2859 0067 00       		.byte	0
+ 2860 0068 03       		.uleb128 0x3
+ 2861 0069 0E       		.uleb128 0xe
+ 2862 006a 3A       		.uleb128 0x3a
+ 2863 006b 0B       		.uleb128 0xb
+ 2864 006c 3B       		.uleb128 0x3b
+ 2865 006d 05       		.uleb128 0x5
+ 2866 006e 49       		.uleb128 0x49
+ 2867 006f 13       		.uleb128 0x13
+ 2868 0070 3F       		.uleb128 0x3f
+ 2869 0071 19       		.uleb128 0x19
+ 2870 0072 02       		.uleb128 0x2
+ 2871 0073 18       		.uleb128 0x18
+ 2872 0074 00       		.byte	0
+ 2873 0075 00       		.byte	0
+ 2874 0076 00       		.byte	0
+ 2875              		.section	.debug_aranges,"",%progbits
+ 2876 0000 14000000 		.4byte	0x14
+ 2877 0004 0200     		.2byte	0x2
+ 2878 0006 00000000 		.4byte	.Ldebug_info0
+ 2879 000a 04       		.byte	0x4
+ 2880 000b 00       		.byte	0
+ 2881 000c 0000     		.2byte	0
+ 2882 000e 0000     		.2byte	0
+ 2883 0010 00000000 		.4byte	0
+ 2884 0014 00000000 		.4byte	0
+ 2885              		.section	.debug_line,"",%progbits
+ 2886              	.Ldebug_line0:
+ 2887 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 2887      02003701 
+ 2887      00000201 
+ 2887      FB0E0D00 
+ 2887      01010101 
+ 2888              	.LASF9:
+ 2889 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 2889      6E74385F 
+ 2889      7400
+ 2890              	.LASF16:
+ 2891 000a 63795F6D 		.ascii	"cy_metadata\000"
+ 2891      65746164 
+ 2891      61746100 
+ 2892              	.LASF1:
+ 2893 0016 756E7369 		.ascii	"unsigned char\000"
+ 2893      676E6564 
+ 2893      20636861 
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 52
+
+
+ 2893      7200
+ 2894              	.LASF17:
+ 2895 0024 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 2895      43313120 
+ 2895      352E342E 
+ 2895      31203230 
+ 2895      31363036 
+ 2896 0057 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 2896      20726576 
+ 2896      6973696F 
+ 2896      6E203233 
+ 2896      37373135 
+ 2897 008a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 2897      66756E63 
+ 2897      74696F6E 
+ 2897      2D736563 
+ 2897      74696F6E 
+ 2898              	.LASF5:
+ 2899 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2899      20756E73 
+ 2899      69676E65 
+ 2899      6420696E 
+ 2899      7400
+ 2900              	.LASF3:
+ 2901 00c4 73686F72 		.ascii	"short unsigned int\000"
+ 2901      7420756E 
+ 2901      7369676E 
+ 2901      65642069 
+ 2901      6E7400
+ 2902              	.LASF13:
+ 2903 00d7 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 2903      6574615F 
+ 2903      63757374 
+ 2903      6E766C00 
+ 2904              	.LASF12:
+ 2905 00e7 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 2905      6574615F 
+ 2905      636F6E66 
+ 2905      69676563 
+ 2905      6300
+ 2906              	.LASF8:
+ 2907 00f9 756E7369 		.ascii	"unsigned int\000"
+ 2907      676E6564 
+ 2907      20696E74 
+ 2907      00
+ 2908              	.LASF7:
+ 2909 0106 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2909      206C6F6E 
+ 2909      6720756E 
+ 2909      7369676E 
+ 2909      65642069 
+ 2910              	.LASF10:
+ 2911 011d 75696E74 		.ascii	"uint8_t\000"
+ 2911      385F7400 
+ 2912              	.LASF15:
+ 2913 0125 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 2913      6574615F 
+ARM GAS  C:\Users\USUARIO\AppData\Local\Temp\ccWbW1Ad.s 			page 53
+
+
+ 2913      666C6173 
+ 2913      6870726F 
+ 2913      74656374 
+ 2914              	.LASF14:
+ 2915 013a 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 2915      6574615F 
+ 2915      776F6E76 
+ 2915      6C00
+ 2916              	.LASF11:
+ 2917 0148 73697A65 		.ascii	"sizetype\000"
+ 2917      74797065 
+ 2917      00
+ 2918              	.LASF6:
+ 2919 0151 6C6F6E67 		.ascii	"long long int\000"
+ 2919      206C6F6E 
+ 2919      6720696E 
+ 2919      7400
+ 2920              	.LASF2:
+ 2921 015f 73686F72 		.ascii	"short int\000"
+ 2921      7420696E 
+ 2921      7400
+ 2922              	.LASF19:
+ 2923 0169 443A5C4C 		.ascii	"D:\\Laboratorio\\Incubadora\\2020\\Incubadora Refri"
+ 2923      61626F72 
+ 2923      61746F72 
+ 2923      696F5C49 
+ 2923      6E637562 
+ 2924 0198 67657261 		.ascii	"gerada Peltier Touch DYM 750L #0045884XX OP2020354\\"
+ 2924      64612050 
+ 2924      656C7469 
+ 2924      65722054 
+ 2924      6F756368 
+ 2925 01cb 4669726D 		.ascii	"Firmware Psoc\\LCD2\\IncubadoraRefrigerada.cydsn\000"
+ 2925      77617265 
+ 2925      2050736F 
+ 2925      635C4C43 
+ 2925      44325C49 
+ 2926              	.LASF4:
+ 2927 01fa 6C6F6E67 		.ascii	"long int\000"
+ 2927      20696E74 
+ 2927      00
+ 2928              	.LASF0:
+ 2929 0203 7369676E 		.ascii	"signed char\000"
+ 2929      65642063 
+ 2929      68617200 
+ 2930              	.LASF18:
+ 2931 020f 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 2931      72617465 
+ 2931      645F536F 
+ 2931      75726365 
+ 2931      5C50536F 
+ 2932              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

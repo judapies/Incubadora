@@ -1,0 +1,8 @@
+D:\Laboratorio\Incubadora\2020\Incubadora Refrigerada Peltier Touch DYM 750L #004588424 OP2020354\Firmware Psoc\LCD2\IncubadoraRefrigerada.cydsn\IncubadoraRefrigerada.cyprj|e2f7e68e-7eee-4061-87bb-88a01e0c5097
+C:\Users\USUARIO\Desktop\Psoc\Analog_LPF\Analog_LPF_v1_0.cylib\Analog_LPF_v1_0.cyprj|f5eafe15-5e05-4679-ae13-92d3a0dcfe4a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|1d2dc819-2dde-47d3-a26c-5d329449abf7
+C:\Users\USUARIO\Documents\PSoC Creator\4.3\Downloads ( 4.3).cylib\Downloads ( 4.3).cyprj|f682830a-95c4-4bb1-8e9e-7aa9cc2f1ffb
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|0b72a463-ffd3-4690-b8a5-746c39500963
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|138bbd2b-c977-4de5-8da1-ca6a16b4aa7b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|65de0c33-6e8d-40e0-bcec-bb0ea4f51018
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|db567f0e-d341-4497-9576-f3874bd41f54

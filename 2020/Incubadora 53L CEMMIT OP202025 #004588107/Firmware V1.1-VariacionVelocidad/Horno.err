@@ -1,0 +1,5 @@
+>>> Warning 202 "Horno.c" Line 44(74,80): Variable never used:   angulo
+>>> Warning 202 "Horno.c" Line 45(146,157): Variable never used:   tiempoServo
+>>> Warning 202 "Horno.c" Line 51(118,129): Variable never used:   Coeficiente
+      Memory usage:   ROM=45%      RAM=51% - 52%
+      0 Errors,  3 Warnings.

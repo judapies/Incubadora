@@ -1,0 +1,8 @@
+Proporcional. 001
+Integral. 001
+Derivativo. 030
+Tciclo. 005
+Ajuste+. 000
+Ajuste-  000
+Media. 080
+Ganancia. 105.9

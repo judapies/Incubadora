@@ -1,0 +1,129 @@
+
+ROM used:   28514/32768 (87%)
+            28514/32768 (87%) including unused fragments
+
+            7.7 Average locations per line
+            16.8 Average locations per statement
+
+RAM used:   1603/2048 (78%) at main() level
+            1655/2048 (81%) worst case
+
+Stack used: 5 worst case (4 in main + 1 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 1884  1449  86  Horno.c
+  841     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.h
+  354    78   5  HDM64GS12.c
+  556   167  10  GRAPHICS.c
+   68     0   0  imagen.h
+----- -----
+ 3703  1694 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     42   0    1             @delay_ms1
+0    168   0    1    580  3.2  glcd_init
+0    176   0    7    609  5.4  glcd_update
+0    188   0    9    466  7.8  glcd_pixel
+0     90   0   10    317  4.7  glcd_fillscreen
+0     64   0    2    257  2.8  glcd_writeByte
+0    272   0    0             @const656
+0    236   0    0             @const660
+0    310   1   17   1475  8.8  glcd_line
+0    194   0   11   1036  5.8  glcd_rect
+0    552   1   12   1822  8.6  glcd_circle
+0     78   0    2             @MUL88
+0    414   1   20   1550 11.2  glcd_text57
+0   1038   2    0             @const737
+0    110   0    2    142  3.9  ActualizaRecta
+0    632   1   16             @ADDFF
+0     90   0    5    100  2.1  sensores
+0     54   0    2             @ITOF
+0    930   2    5    715  7.7  Leer_Sensor
+0    350   1   14             @DIVFF
+0     34   0    5             @MUL1616
+0    246   0   11             @MULFF
+0   2632   5    4   3943  9.0  Controla
+0    122   0   10             @FLT
+0     60   0    4             @SFTOI
+0    252   0    8    868  5.1  displayMenu
+0    456   1   16   1613  5.0  displayTiempo
+0     32   0    1             @SPRINTF
+0     44   0    3             @DIV88
+0    134   0    2             @PRINTF_U_862
+0    442   1   17   1550  5.0  displayTemperatura
+0    200   0    9             @PRINTF_LU_862
+0    168   0    6    483  7.8  glcd_imagen
+0    152   0    1    780  5.8  temp1s
+0    120   0   18    330  3.4  displayT
+0     68   0    5             @FTOSD
+0    148   0   13             @DIV3232
+0    434   1   13             @PRINTF_L32D_862FPFPF
+0    182   0   15    603  4.5  displayContrasena
+0    190   0    6             @PRINTF_D_862
+0  15178  27    4  75534 14.0  main
+0     28   0    0             @const921
+0     32   0    0             @const922
+0     32   0    0             @const923
+0     26   0    0             @const924
+0     28   0    0             @const925
+0     22   0    0             @const926
+0     26   0    0             @const928
+0     28   0    0             @const930
+0     22   0    0             @const931
+0     32   0    0             @const932
+0     28   0    0             @const934
+0     30   0    0             @const936
+0     30   0    0             @const938
+0     26   0    0             @const940
+0     20   0    0             @const941
+0     20   0    0             @const942
+0     18   0    0             @const945
+0     26   0    0             @const947
+0     18   0    0             @const948
+0     28   0    0             @const954
+0     36   0    0             @const955
+0     34   0    0             @const956
+0     34   0    0             @const958
+0     32   0    0             @const959
+0     34   0    0             @const960
+0     22   0    0             @const963
+0     18   0    0             @const964
+0     22   0    0             @const966
+0     22   0    0             @const968
+0     34   0    0             @const969
+0     26   0    0             @const970
+0     26   0    0             @const975
+0     24   0    0             @const977
+0     26   0    0             @const979
+0     26   0    0             @const981
+0     28   0    0             @const983
+0     28   0    0             @const985
+0     24   0    0             @const989
+0     24   0    0             @const990
+0     22   0    0             @const991
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               21
+    Statements              1694
+    Comments                691
+    Volume (V)              115029
+    Difficulty (D)          131.0
+    Effort to implement (E) 15073987
+    Time to implement (T)   232 hours, 37 minutes
+    Est Delivered Bugs (B)  20
+    Cyclomatic Complexity   305
+    Maintainability (MI)    77
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000AC   166  0  
+000AE-07FFE  28344  4250  
+
+
+

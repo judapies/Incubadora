@@ -1,0 +1,164 @@
+
+ROM used: 44952 (46%)
+          44952 (46%) including unused fragments
+
+          8 Average locations per line
+          18 Average locations per statement
+
+RAM used: 1687 (51%) at main() level
+          1745 (52%) worst case
+
+Stack used: 7 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 1408  1193  47  Horno.c
+  461     0   0  18F4685.h
+  354    78   3  HDM64GS12.c
+  556   167   7  GRAPHICS.c
+   68     0   0  imagen.h
+   37     0   0  stdio.h
+  409     0   0  string.h
+   28     0   0  stddef.h
+   28     0   0  ctype.h
+ 1273   359  14  stdlib.h
+  896   760  30  Funciones.h
+----- -----
+ 5518  2557 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   0   1             @delay_ms1
+0    118   0   1             @I2C_WRITE_1
+0    168   0   1   580  3.2  glcd_init
+0    184   0   7   609  5.4  glcd_update
+0    188   0   9   466  7.8  glcd_pixel
+0     90   0  10   317  4.7  glcd_fillScreen
+0     54   0   2   257  2.8  glcd_writeByte
+0    292   0   0             @const99
+0    256   0   0             @const102
+0    318   0  17  1475  8.8  glcd_line
+0    194   0   6  1036  5.8  glcd_rect
+0    554   1  12  1822  8.6  glcd_circle
+0     78   0   2             @MUL88
+0    452   1  20  1550 11.2  glcd_text57
+0   1058   1   0             @const178
+0    246   0  11             @MULFF
+0     54   0   2             @ITOF
+0    632   1  16             @ADDFF
+0    350   0  14             @DIVFF
+0    108   0   2   142  3.9  ActualizaRecta
+0     90   0   5   100  2.1  sensores
+0   1072   1   5   815  7.6  Leer_Sensor
+0     34   0   5             @MUL1616
+0   3504   4   4  4137  8.9  ControlaNatural
+0    122   0  10             @FLT
+0     60   0   4             @SFTOI
+0   2668   3   4  2806  7.8  ControlaForzada
+0    250   0   8   868  5.1  displayMenu
+0    660   1  21  1912  5.5  displayTemps
+0     32   0   1             @SPRINTF
+0     68   0   5             @FTOSD
+0    128   0  13             @DIV3232
+0    436   0  13             @PRINTF_L32D_586FPFPF
+0     38   0   0             @const596
+0    454   1  16  1613  5.0  displayTiempo
+0     44   0   3             @DIV88
+0    134   0   2             @PRINTF_U_586
+0    124   0  18   330  3.4  displayTT
+0    440   0  17  1550  5.0  displayTemperatura
+0    190   0   9             @PRINTF_LU_586
+0    184   0   6   483  7.8  glcd_imagen
+0    122   0  18   330  3.4  displayT
+0    190   0  15   603  4.5  displayContrasena
+0    224   0   6             @PRINTF_D_586
+0    186   0   2   318  2.3  MensajeAlmacenado
+0     42   0   0             @const660
+0     48   0   0             @const661
+0     70   0   1   221  1.8  ConfiguraInterrupciones
+0    368   0   2   771  4.3  MensajeBienvenida
+0     48   0   0             @const664
+0     50   0   0             @const665
+0     52   0   0             @const666
+0     48   0   0             @const667
+0   2126   2   4  2689  3.9  LeeEEPROM
+0   2426   3   0  5002  4.9  LimitaValores
+0     14   0   0    17  0.8  DelayPuls
+0   2194   2  10  9564 10.6  PidePassword
+0     42   0   0             @const680
+0     48   0   0             @const681
+0     46   0   0             @const683
+0     48   0   0             @const685
+0     78   0   0   489  4.3  CuentaTiempo
+0    198   0  16   156  3.5  extraeDecimal
+0     88   0   3   100  1.8  Envio_I2C
+0    136   0   1   228  1.8  Envio_Esclavos
+0    172   0   0  1009  4.4  ext0
+0     46   0   0   211  4.5  temp0s
+0    238   0   1  1327  5.9  temp1s
+0  17122  19   4 67943 14.0  MAIN
+0     48   0   0             @const702
+0     42   0   0             @const703
+0     52   0   0             @const704
+0     58   0   0             @const706
+0     50   0   0             @const708
+0     50   0   0             @const710
+0     50   0   0             @const712
+0     52   0   0             @const714
+0     48   0   0             @const717
+0     48   0   0             @const718
+0     52   0   0             @const720
+0     52   0   0             @const722
+0     52   0   0             @const724
+0     44   0   0             @const727
+0     38   0   0             @const728
+0     46   0   0             @const729
+0     38   0   0             @const730
+0     56   0   0             @const731
+0     56   0   0             @const732
+0     58   0   0             @const733
+0     54   0   0             @const734
+0     42   0   0             @const735
+0     42   0   0             @const738
+0     42   0   0             @const742
+0     42   0   0             @const744
+0     54   0   0             @const745
+0     50   0   0             @const747
+0     46   0   0             @const749
+0     48   0   0             @const751
+0     44   0   0             @const753
+0     46   0   0             @const755
+0     46   0   0             @const757
+0     48   0   0             @const759
+0     50   0   0             @const761
+0     50   0   0             @const763
+0     38   0   0             @const767
+0     38   0   0             @const768
+0     38   0   0             @const769
+0     44   0   0             @const771
+0     44   0   0             @const772
+0     42   0   0             @const773
+0     46   0   0             @const774
+
+Program metrics:
+    Functions               37
+    Statements              2557
+    Comments                1228
+    Volume (V)              155261
+    Difficilty (D)          198.0
+    Effort to implement (E) 30745817
+    Time to implement (T)   474 hours, 28 minutes
+    Est Delivered Bugs (B)  33
+    Cyclomatic Complexity   391
+    Maintainability (MI)    81
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-0014E   328  0  
+00150-0FFFE  44620  20580  
+10000-17FFE     0  32768  
+
+
+

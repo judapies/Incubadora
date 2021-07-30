@@ -1,0 +1,100 @@
+--------------- Build Started: 12/04/2020 09:08:19 Project: IncubadoraRefrigerada, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+cydsfit.exe -.appdatapath "C:\Users\USUARIO\AppData\Local\Cypress Semiconductor\PSoC Creator\4.3" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p "D:\Laboratorio\Incubadora\2020\Incubadora Refrigerada Peltier Touch DYM 750L #004588424 OP2020354\Firmware Psoc\LCD2\IncubadoraRefrigerada.cydsn\IncubadoraRefrigerada.cyprj" -d CY8C5888AXI-LP096 -s "D:\Laboratorio\Incubadora\2020\Incubadora Refrigerada Peltier Touch DYM 750L #004588424 OP2020354\Firmware Psoc\LCD2\IncubadoraRefrigerada.cydsn\Generated_Source\PSoC5" -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+Elaborating Design...
+ADD: sdb.M0065: information: Analog terminal "vdac_ref" on ADC_SAR_SEQ_v2_10 is unconnected.
+ * C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_v2_10\PSoC5\ADC_SAR_SEQ_v2_10.cysch (Signal: vdac_ref)
+ * C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_v2_10\PSoC5\ADC_SAR_SEQ_v2_10.cysch (Shape_798)
+ * C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_v2_10\PSoC5\ADC_SAR_SEQ_v2_10.cysch (Shape_885)
+HDL Generation...
+Synthesis...
+Tech Mapping...
+Info: plm.M0038: The pin named RefRes_Negative(0) at location P3[2] prevents usage of special purposes: DSM:ExtVref. (App=cydsfit)
+Analog Placement...
+Info: apr.M0002: Analog signal "Net_1217" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1218" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_999" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1001" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1003" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1004" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1006" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1008" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1009" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1011" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1013" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1014" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1016" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1018" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1019" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1021" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1023" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1024" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1026" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1028" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1029" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1031" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1033" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1034" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1036" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1038" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1039" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1041" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1043" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1044" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1046" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1048" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1049" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1051" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1053" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1054" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1056" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1058" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1059" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1061" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1063" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1064" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1066" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1068" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1069" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1071" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1073" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1074" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1075" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1076" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1077" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1078" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1079" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1080" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1081" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1082" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1083" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1084" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1085" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1086" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1087" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1088" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1089" is connected to one terminal only. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 33% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 57% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 78% done. (App=cydsfit)
+Analog Routing...
+Analog Code Generation...
+Digital Placement...
+Digital Routing...
+Bitstream Generation...
+Bitstream Verification...
+Static timing analysis...
+API Generation...
+Dependency Generation...
+Cleanup...
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\IncubadoraRefrigerada.a .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\ADC.o .\CortexM3\ARM_GCC_541\Debug\ADC_PM.o .\CortexM3\ARM_GCC_541\Debug\ADC_INT.o .\CortexM3\ARM_GCC_541\Debug\ADC_Ext_CP_Clk.o .\CortexM3\ARM_GCC_541\Debug\ADC_IRQ.o .\CortexM3\ARM_GCC_541\Debug\ADC_theACLK.o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM3\ARM_GCC_541\Debug\Reloj.o .\CortexM3\ARM_GCC_541\Debug\USBUART.o .\CortexM3\ARM_GCC_541\Debug\USBUART_audio.o .\CortexM3\ARM_GCC_541\Debug\USBUART_boot.o .\CortexM3\ARM_GCC_541\Debug\USBUART_cdc.o .\CortexM3\ARM_GCC_541\Debug\USBUART_cls.o .\CortexM3\ARM_GCC_541\Debug\USBUART_descr.o .\CortexM3\ARM_GCC_541\Debug\USBUART_drv.o .\CortexM3\ARM_GCC_541\Debug\USBUART_episr.o .\CortexM3\ARM_GCC_541\Debug\USBUART_hid.o .\CortexM3\ARM_GCC_541\Debug\USBUART_pm.o .\CortexM3\ARM_GCC_541\Debug\USBUART_std.o .\CortexM3\ARM_GCC_541\Debug\USBUART_vnd.o .\CortexM3\ARM_GCC_541\Debug\USBUART_midi.o .\CortexM3\ARM_GCC_541\Debug\USBUART_msc.o .\CortexM3\ARM_GCC_541\Debug\USBUART_Dm.o .\CortexM3\ARM_GCC_541\Debug\USBUART_Dp.o .\CortexM3\ARM_GCC_541\Debug\UART_1.o .\CortexM3\ARM_GCC_541\Debug\UART_1_PM.o .\CortexM3\ARM_GCC_541\Debug\UART_1_INT.o .\CortexM3\ARM_GCC_541\Debug\UART_1_BOOT.o .\CortexM3\ARM_GCC_541\Debug\UART_1_IntClock.o .\CortexM3\ARM_GCC_541\Debug\Timer.o .\CortexM3\ARM_GCC_541\Debug\Timer_PM.o .\CortexM3\ARM_GCC_541\Debug\ADCMux.o .\CortexM3\ARM_GCC_541\Debug\RX2.o .\CortexM3\ARM_GCC_541\Debug\EEPROM.o .\CortexM3\ARM_GCC_541\Debug\SSR.o .\CortexM3\ARM_GCC_541\Debug\DOOR.o .\CortexM3\ARM_GCC_541\Debug\LCD1.o .\CortexM3\ARM_GCC_541\Debug\LCD2.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_INT.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_PM.o .\CortexM3\ARM_GCC_541\Debug\LM35.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_IRQ.o .\CortexM3\ARM_GCC_541\Debug\I2C.o .\CortexM3\ARM_GCC_541\Debug\I2C_BOOT.o .\CortexM3\ARM_GCC_541\Debug\I2C_INT.o .\CortexM3\ARM_GCC_541\Debug\I2C_PM.o .\CortexM3\ARM_GCC_541\Debug\I2C_SLAVE.o .\CortexM3\ARM_GCC_541\Debug\I2C_MASTER.o .\CortexM3\ARM_GCC_541\Debug\SDA.o .\CortexM3\ARM_GCC_541\Debug\SCL.o .\CortexM3\ARM_GCC_541\Debug\Timer2.o .\CortexM3\ARM_GCC_541\Debug\Timer2_PM.o .\CortexM3\ARM_GCC_541\Debug\leeT.o .\CortexM3\ARM_GCC_541\Debug\IDAC.o .\CortexM3\ARM_GCC_541\Debug\IDAC_PM.o .\CortexM3\ARM_GCC_541\Debug\RefRes_Current.o .\CortexM3\ARM_GCC_541\Debug\BUZZER.o .\CortexM3\ARM_GCC_541\Debug\RefRes_Positive.o .\CortexM3\ARM_GCC_541\Debug\CurrentMux.o .\CortexM3\ARM_GCC_541\Debug\RefRes_Negative.o .\CortexM3\ARM_GCC_541\Debug\RTD_Negative.o .\CortexM3\ARM_GCC_541\Debug\RTD_Current.o .\CortexM3\ARM_GCC_541\Debug\RTD_Positive.o .\CortexM3\ARM_GCC_541\Debug\RTD.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_SAR.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_SAR_INT.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_SAR_PM.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_IntClock.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_TempBuf_dma.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_FinalBuf_dma.o .\CortexM3\ARM_GCC_541\Debug\RTD_Negative_1.o .\CortexM3\ARM_GCC_541\Debug\RTD_Positive_1.o .\CortexM3\ARM_GCC_541\Debug\RTD_Current_1.o .\CortexM3\ARM_GCC_541\Debug\DS1302_IO_PIN.o .\CortexM3\ARM_GCC_541\Debug\DS1302_SCLK_PIN.o .\CortexM3\ARM_GCC_541\Debug\DS1302_CE_PIN.o .\CortexM3\ARM_GCC_541\Debug\CR2.o .\CortexM3\ARM_GCC_541\Debug\CR1.o .\CortexM3\ARM_GCC_541\Debug\CR3.o .\CortexM3\ARM_GCC_541\Debug\TERM.o .\CortexM3\ARM_GCC_541\Debug\CR5.o .\CortexM3\ARM_GCC_541\Debug\CR4.o .\CortexM3\ARM_GCC_541\Debug\LEVEL.o .\CortexM3\ARM_GCC_541\Debug\CR6.o .\CortexM3\ARM_GCC_541\Debug\CR7.o .\CortexM3\ARM_GCC_541\Debug\CR8.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_541\Debug\IncubadoraRefrigerada.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o "D:\Laboratorio\Incubadora\2020\Incubadora Refrigerada Peltier Touch DYM 750L #004588424 OP2020354\Firmware Psoc\LCD2\IncubadoraRefrigerada.cydsn\CortexM3\ARM_GCC_541\Debug\IncubadoraRefrigerada.elf" .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\getResistance.o .\CortexM3\ARM_GCC_541\Debug\removeOffsetNoise.o .\CortexM3\ARM_GCC_541\Debug\DS1302.o .\CortexM3\ARM_GCC_541\Debug\BMP180.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\IncubadoraRefrigerada.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -l m -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/IncubadoraRefrigerada.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -u _printf_float -Wl,--gc-sections -u_printf_float -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C "D:\Laboratorio\Incubadora\2020\Incubadora Refrigerada Peltier Touch DYM 750L #004588424 OP2020354\Firmware Psoc\LCD2\IncubadoraRefrigerada.cydsn\CortexM3\ARM_GCC_541\Debug\IncubadoraRefrigerada.elf" --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
+No ELF section .cychecksum found, creating one
+Application checksum calculated and stored in ELF section .cychecksum
+Checksum calculated and stored in ELF section .cymeta
+cyelftool.exe -S "D:\Laboratorio\Incubadora\2020\Incubadora Refrigerada Peltier Touch DYM 750L #004588424 OP2020354\Firmware Psoc\LCD2\IncubadoraRefrigerada.cydsn\CortexM3\ARM_GCC_541\Debug\IncubadoraRefrigerada.elf"
+Flash used: 56896 of 262144 bytes (21,7 %).
+SRAM used: 5945 of 65536 bytes (9,1 %). Stack: 2048 bytes. Heap: 512 bytes.
+--------------- Build Succeeded: 12/04/2020 09:08:42 ---------------
